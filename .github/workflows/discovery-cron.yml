@@ -1,0 +1,52 @@
+name: Discovery Pipeline
+
+on:
+  schedule:
+    # Every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: "0 0,6,12,18 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (log only, do not POST to API)"
+        required: false
+        default: "false"
+
+jobs:
+  run-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run discovery pipeline
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+          ADMIN_API_KEY: ${{ secrets.ADMIN_API_KEY }}
+          SITE_URL: ${{ secrets.SITE_URL || 'https://tsgov.in' }}
+          GDELT_ENABLED: "true"
+          RSS_ENABLED: "true"
+          NEWSAPI_ENABLED: ${{ secrets.NEWSAPI_KEY != '' && 'true' || 'false' }}
+          TWITTER_ENABLED: ${{ secrets.TWITTER_BEARER_TOKEN != '' && 'true' || 'false' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          TS_NODE_PROJECT=tsconfig.scripts.json node -r ts-node/register scripts/discovery-runner.ts
+
+      - name: Upload discovery state
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-state-${{ github.run_id }}
+          path: .discovery-state.json
+          retention-days: 7

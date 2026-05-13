@@ -14,23 +14,31 @@ export function PromisesTable({ promises }: { promises: GovernmentPromise[] }) {
   const [search, setSearch] = useState("")
   const [statusFilter, setStatusFilter] = useState("all")
   const [categoryFilter, setCategoryFilter] = useState("all")
+  const [ministerFilter, setMinisterFilter] = useState("all")
 
   const categories = Array.from(new Set(promises.map(p => p.category))).sort()
+  const ministers = Array.from(
+    new Set(promises.map(p => p.responsible_minister).filter(Boolean) as string[])
+  ).sort()
 
   const filtered = promises.filter(p => {
     const q = search.toLowerCase()
     const matchesSearch =
-      p.title.toLowerCase().includes(q) || p.summary.toLowerCase().includes(q)
+      p.title.toLowerCase().includes(q) ||
+      p.summary.toLowerCase().includes(q) ||
+      (p.responsible_minister?.toLowerCase().includes(q) ?? false) ||
+      (p.ministry?.toLowerCase().includes(q) ?? false)
     const matchesStatus = statusFilter === "all" || p.current_status === statusFilter
     const matchesCategory = categoryFilter === "all" || p.category === categoryFilter
-    return matchesSearch && matchesStatus && matchesCategory
+    const matchesMinister = ministerFilter === "all" || p.responsible_minister === ministerFilter
+    return matchesSearch && matchesStatus && matchesCategory && matchesMinister
   })
 
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap gap-3">
         <Input
-          placeholder="Search promises..."
+          placeholder="Search promises, ministers, ministries..."
           value={search}
           onChange={e => setSearch(e.target.value)}
           className="max-w-xs"
@@ -57,6 +65,19 @@ export function PromisesTable({ promises }: { promises: GovernmentPromise[] }) {
             ))}
           </SelectContent>
         </Select>
+        {ministers.length > 0 && (
+          <Select value={ministerFilter} onValueChange={setMinisterFilter}>
+            <SelectTrigger className="w-56">
+              <SelectValue placeholder="Filter by minister" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="all">All ministers</SelectItem>
+              {ministers.map(m => (
+                <SelectItem key={m} value={m}>{m}</SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        )}
       </div>
 
       <p className="text-sm text-muted-foreground">
@@ -66,8 +87,8 @@ export function PromisesTable({ promises }: { promises: GovernmentPromise[] }) {
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead className="w-[38%]">Promise</TableHead>
-            <TableHead>Category</TableHead>
+            <TableHead className="w-[35%]">Promise</TableHead>
+            <TableHead>Ministry / Minister</TableHead>
             <TableHead>Deadline</TableHead>
             <TableHead>Status</TableHead>
             <TableHead>Evidence</TableHead>
@@ -92,9 +113,15 @@ export function PromisesTable({ promises }: { promises: GovernmentPromise[] }) {
                   </Link>
                   <p className="text-xs text-muted-foreground mt-1 line-clamp-2">{p.summary}</p>
                 </TableCell>
-                <TableCell className="text-sm">{p.category}</TableCell>
+                <TableCell className="text-sm">
+                  {p.ministry && <p className="font-medium">{p.ministry}</p>}
+                  {p.responsible_minister && (
+                    <p className="text-xs text-muted-foreground">{p.responsible_minister}</p>
+                  )}
+                  {!p.ministry && !p.responsible_minister && <span className="text-muted-foreground">—</span>}
+                </TableCell>
                 <TableCell className="text-sm text-muted-foreground whitespace-nowrap">
-                  {p.deadline ?? "—"}
+                  {p.deadline_date ?? p.deadline ?? "—"}
                 </TableCell>
                 <TableCell><StatusBadge status={p.current_status} /></TableCell>
                 <TableCell><EvidenceBadge grade={p.evidence_grade} /></TableCell>

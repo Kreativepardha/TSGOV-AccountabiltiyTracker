@@ -1,0 +1,47 @@
+{
+  "slug": "farm-loan-waiver",
+  "title": "Crop loan waiver up to ₹2 lakh per farmer",
+  "category": "Agriculture",
+  "manifesto_section": "Congress Manifesto 2023 — Agriculture",
+  "announced_date": "2023-11-15",
+  "deadline": "Within first 6 months",
+  "deadline_date": "2024-06-07",
+  "target_beneficiaries": "All farmers with crop loans up to ₹2 lakh",
+  "target_amount": "₹2 lakh per farmer",
+  "ministry": "Agriculture",
+  "responsible_minister": "Thummala Nageswara Rao",
+  "election_cycle": "2023-Congress",
+  "districts": [],
+  "budget_allocated": "₹31,000 crore",
+  "budget_spent": "₹12,000 crore",
+  "fact_checks": [],
+  "current_status": "Partially Fulfilled",
+  "evidence_grade": "Multiple Sources",
+  "summary": "The Congress government announced a ₹2 lakh crop loan waiver; implementation is partial. As of mid-2025, approximately ₹12,000 crore of the estimated ₹31,000 crore liability has been disbursed. Many farmers — especially those with multiple lenders or cooperative bank loans — remain excluded pending verification.",
+  "sources": [
+    {
+      "label": "Farm loan waiver progress — The Hindu",
+      "url": "https://www.thehindu.com/news/national/telangana/telangana-crop-loan-waiver-progress-2024/article68320000.ece",
+      "date": "2024-05-15",
+      "outlet": "The Hindu",
+      "source_type": "news_article"
+    },
+    {
+      "label": "Loan waiver partial disbursement — Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/nation/current-affairs/telangana-farm-loan-waiver-partial-disbursement-2024.html",
+      "date": "2024-07-02",
+      "outlet": "Deccan Chronicle",
+      "source_type": "news_article"
+    },
+    {
+      "label": "Farmers excluded from waiver — Telangana Today",
+      "url": "https://telanganatoday.com/telangana-crop-loan-waiver-farmers-left-out-2024",
+      "date": "2024-09-10",
+      "outlet": "Telangana Today",
+      "source_type": "news_article"
+    }
+  ],
+  "updates": [],
+  "tags": ["agriculture", "farmers", "loan waiver", "debt relief"],
+  "last_reviewed": "2026-05-13"
+}

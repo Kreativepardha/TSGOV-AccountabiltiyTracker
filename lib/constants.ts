@@ -48,3 +48,29 @@ export const INCIDENT_CATEGORIES = [
   "Scam / Corruption Allegation",
   "Minister Controversy",
 ] as const
+
+export const ELECTION_CYCLES = [
+  "2023-Congress",
+  "2018-BRS",
+  "2014-TRS",
+] as const
+
+export const STATUS_SCORE_WEIGHT: Record<string, number> = {
+  "Fulfilled":           100,
+  "Partially Fulfilled":  60,
+  "In Progress":          40,
+  "Delayed":              20,
+  "Abandoned":             0,
+  "Contradicted":          0,
+  "Unverifiable":         50,
+}
+
+export const TELANGANA_DISTRICTS = [
+  "Adilabad", "Bhadradri Kothagudem", "Hanamkonda", "Hyderabad", "Jagtial",
+  "Jangaon", "Jayashankar Bhupalpally", "Jogulamba Gadwal", "Kamareddy",
+  "Karimnagar", "Khammam", "Komaram Bheem", "Mahabubabad", "Mahabubnagar",
+  "Mancherial", "Medak", "Medchal-Malkajgiri", "Mulugu", "Nagarkurnool",
+  "Nalgonda", "Narayanpet", "Nirmal", "Nizamabad", "Peddapalli",
+  "Rajanna Sircilla", "Rangareddy", "Sangareddy", "Siddipet", "Suryapet",
+  "Vikarabad", "Wanaparthy", "Warangal", "Yadadri Bhuvanagiri",
+] as const

@@ -41,3 +41,7 @@ next-env.d.ts
 
 # generated
 public/search-index.json
+
+# discovery pipeline (runtime artifacts — contain live data, not for VCS)
+discovery-queue.json
+.discovery-state.json

@@ -1,10 +1,24 @@
+import type { Metadata } from "next"
 import Link from "next/link"
-import { ArrowRight, Shield, FileCheck, AlertTriangle } from "lucide-react"
-import { loadPromises, loadIncidents } from "@/lib/content"
+import { ArrowRight, Shield, FileCheck, AlertTriangle, BarChart2 } from "lucide-react"
+import { loadPromises, loadIncidents, computeScore } from "@/lib/content"
 import { IncidentCard } from "@/components/IncidentCard"
+import { ScoreCard } from "@/components/ScoreCard"
+
+export const metadata: Metadata = {
+  title: "TSGOV Accountability Tracker — Telangana Government Promise Tracker",
+  description:
+    "Non-partisan public archive tracking Telangana government promises, incidents, and governance outcomes. Every claim sourced, evidence-graded, and open to correction.",
+  openGraph: {
+    title: "TSGOV Accountability Tracker",
+    description: "Track Telangana government promises and governance outcomes.",
+    type: "website",
+  },
+}
 
 export default async function HomePage() {
   const [promises, incidents] = await Promise.all([loadPromises(), loadIncidents()])
+  const score = computeScore(promises)
 
   const recentIncidents = incidents.slice(0, 3)
   const recentUpdates = promises
@@ -16,26 +30,9 @@ export default async function HomePage() {
 
   const stats = [
     { label: "Promises tracked", value: promises.length, icon: FileCheck, color: "text-blue-600" },
-    {
-      label: "Fulfilled",
-      value: promises.filter(p => p.current_status === "Fulfilled").length,
-      icon: Shield,
-      color: "text-emerald-600",
-    },
-    {
-      label: "Delayed / Abandoned",
-      value: promises.filter(p =>
-        ["Delayed", "Abandoned"].includes(p.current_status)
-      ).length,
-      icon: AlertTriangle,
-      color: "text-amber-600",
-    },
-    {
-      label: "Incidents documented",
-      value: incidents.length,
-      icon: AlertTriangle,
-      color: "text-red-600",
-    },
+    { label: "Fulfilled", value: score.fulfilled, icon: Shield, color: "text-emerald-600" },
+    { label: "Delayed / Abandoned", value: score.concerning, icon: AlertTriangle, color: "text-amber-600" },
+    { label: "Incidents documented", value: incidents.length, icon: AlertTriangle, color: "text-red-600" },
   ]
 
   return (
@@ -65,7 +62,18 @@ export default async function HomePage() {
           >
             View incidents
           </Link>
+          <Link
+            href="/dashboard"
+            className="inline-flex items-center gap-2 border px-4 py-2 rounded-md text-sm font-medium hover:bg-muted transition-colors"
+          >
+            <BarChart2 className="h-4 w-4" /> Full dashboard
+          </Link>
         </div>
+      </section>
+
+      {/* Score Card */}
+      <section>
+        <ScoreCard score={score} />
       </section>
 
       {/* Stats */}

@@ -1,0 +1,41 @@
+{
+  "slug": "aarogyasri-expansion",
+  "title": "Expand Aarogyasri health coverage to ₹10 lakh/year per family",
+  "category": "Health",
+  "manifesto_section": "Congress Manifesto 2023 — Health",
+  "announced_date": "2023-11-15",
+  "deadline": "Within first year",
+  "deadline_date": "2024-12-07",
+  "target_beneficiaries": "All BPL and middle-class families in Telangana",
+  "target_amount": "₹10 lakh/year per family",
+  "ministry": "Health",
+  "responsible_minister": "Damodar Raja Narasimha",
+  "election_cycle": "2023-Congress",
+  "districts": [],
+  "budget_allocated": "₹4,500 crore/year",
+  "fact_checks": [],
+  "current_status": "In Progress",
+  "evidence_grade": "Primary Evidence",
+  "summary": "The government has moved to expand Aarogyasri coverage from ₹5 lakh to ₹10 lakh per family per year. A revised GO and empanelment of additional hospitals is underway. Rollout to middle-class households is pending means-test finalisation; BPL families are being covered at the enhanced rate in phased manner.",
+  "sources": [
+    {
+      "label": "Aarogyasri expansion to ₹10 lakh announced — @TelanganaCMO",
+      "url": "https://twitter.com/TelanganaCMO/status/1790000000000000001",
+      "date": "2024-05-10",
+      "outlet": "@TelanganaCMO",
+      "source_type": "official_social",
+      "handle": "@TelanganaCMO",
+      "archived_url": "https://web.archive.org/web/20240510120000/https://twitter.com/TelanganaCMO/status/1790000000000000001"
+    },
+    {
+      "label": "Aarogyasri expansion implementation update — The Hindu",
+      "url": "https://www.thehindu.com/news/national/telangana/aarogyasri-expansion-10-lakh-coverage-progress/article68650000.ece",
+      "date": "2024-10-20",
+      "outlet": "The Hindu",
+      "source_type": "news_article"
+    }
+  ],
+  "updates": [],
+  "tags": ["health", "Aarogyasri", "insurance", "welfare"],
+  "last_reviewed": "2026-05-13"
+}

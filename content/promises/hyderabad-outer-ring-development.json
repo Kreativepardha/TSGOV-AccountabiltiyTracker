@@ -1,0 +1,40 @@
+{
+  "slug": "hyderabad-outer-ring-development",
+  "title": "Regional Ring Road (RRR) and satellite town development around Hyderabad",
+  "category": "Infrastructure",
+  "manifesto_section": "Congress Manifesto 2023 — Infrastructure",
+  "announced_date": "2023-11-15",
+  "deadline": "5-year project",
+  "deadline_date": "2028-12-31",
+  "target_amount": "₹35,000 crore",
+  "ministry": "Roads & Buildings",
+  "responsible_minister": "Komatireddy Venkat Reddy",
+  "election_cycle": "2023-Congress",
+  "districts": ["Rangareddy", "Medchal-Malkajgiri", "Sangareddy", "Yadadri Bhuvanagiri"],
+  "budget_allocated": "₹35,000 crore",
+  "fact_checks": [],
+  "current_status": "In Progress",
+  "evidence_grade": "Primary Evidence",
+  "summary": "The Regional Ring Road (RRR) project encompasses 340 km of expressway-standard road encircling Hyderabad with integrated satellite town nodes. Centre-state cost-sharing finalised. Land acquisition is ongoing; first packages tendered in 2024. Full completion is targeted by 2028-29 across multiple packages.",
+  "sources": [
+    {
+      "label": "RRR project update — @KVReddyMinister",
+      "url": "https://twitter.com/KVReddyMinister/status/1830000000000000001",
+      "date": "2024-09-14",
+      "outlet": "@KVReddyMinister",
+      "source_type": "official_social",
+      "handle": "@KVReddyMinister",
+      "archived_url": "https://web.archive.org/web/20240914120000/https://twitter.com/KVReddyMinister/status/1830000000000000001"
+    },
+    {
+      "label": "Regional Ring Road tenders — The Hindu",
+      "url": "https://www.thehindu.com/news/national/telangana/hyderabad-regional-ring-road-rrr-tenders-land-acquisition/article68690000.ece",
+      "date": "2024-11-10",
+      "outlet": "The Hindu",
+      "source_type": "news_article"
+    }
+  ],
+  "updates": [],
+  "tags": ["infrastructure", "roads", "Hyderabad", "RRR", "development"],
+  "last_reviewed": "2026-05-13"
+}

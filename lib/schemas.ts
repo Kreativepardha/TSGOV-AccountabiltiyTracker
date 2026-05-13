@@ -40,6 +40,19 @@ export const SourceSchema = z.object({
   handle: z.string().optional(),
 })
 
+export const ElectionCycleSchema = z.enum([
+  "2023-Congress",
+  "2018-BRS",
+  "2014-TRS",
+])
+
+export const FactCheckSchema = z.object({
+  outlet: z.string(),
+  url: z.string().url(),
+  verdict: z.string(),
+  date: z.string(),
+})
+
 export const GovernmentPromiseSchema = z.object({
   slug: z.string(),
   title: z.string(),
@@ -58,8 +71,16 @@ export const GovernmentPromiseSchema = z.object({
   manifesto_section: z.string(),
   announced_date: z.string(),
   deadline: z.string().optional(),
+  deadline_date: z.string().optional(),
   target_beneficiaries: z.string().optional(),
   target_amount: z.string().optional(),
+  ministry: z.string().optional(),
+  responsible_minister: z.string().optional(),
+  election_cycle: ElectionCycleSchema.optional(),
+  districts: z.array(z.string()).default([]),
+  budget_allocated: z.string().optional(),
+  budget_spent: z.string().optional(),
+  fact_checks: z.array(FactCheckSchema).default([]),
   current_status: PromiseStatusSchema,
   evidence_grade: EvidenceGradeSchema,
   summary: z.string().max(500),
@@ -107,3 +128,5 @@ export type Source = z.infer<typeof SourceSchema>
 export type EvidenceGrade = z.infer<typeof EvidenceGradeSchema>
 export type PromiseStatus = z.infer<typeof PromiseStatusSchema>
 export type SourceType = z.infer<typeof SourceTypeSchema>
+export type ElectionCycle = z.infer<typeof ElectionCycleSchema>
+export type FactCheck = z.infer<typeof FactCheckSchema>

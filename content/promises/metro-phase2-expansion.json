@@ -1,0 +1,40 @@
+{
+  "slug": "metro-phase2-expansion",
+  "title": "Hyderabad Metro Rail Phase 2 expansion — 76 km new corridors",
+  "category": "Infrastructure",
+  "manifesto_section": "Congress Manifesto 2023 — Infrastructure",
+  "announced_date": "2023-11-15",
+  "deadline": "Tender in Year 1, complete by 2027",
+  "deadline_date": "2027-12-31",
+  "target_amount": "₹24,000 crore",
+  "ministry": "Infrastructure & Roads",
+  "responsible_minister": "A. Revanth Reddy (CM)",
+  "election_cycle": "2023-Congress",
+  "districts": ["Hyderabad", "Rangareddy", "Medchal-Malkajgiri"],
+  "budget_allocated": "₹24,000 crore",
+  "fact_checks": [],
+  "current_status": "In Progress",
+  "evidence_grade": "Primary Evidence",
+  "summary": "Hyderabad Metro Phase 2 proposes 76 km of new corridors covering MGBS-Chandrayangutta, Nagole-Meerpet, and other alignments. DPR approved; tenders floated for select packages. Land acquisition disputes have delayed ground-breaking on several stretches. Centre's financial participation remains under negotiation.",
+  "sources": [
+    {
+      "label": "Hyderabad Metro Phase 2 DPR approved — @TelanganaCMO",
+      "url": "https://twitter.com/TelanganaCMO/status/1810000000000000001",
+      "date": "2024-07-05",
+      "outlet": "@TelanganaCMO",
+      "source_type": "official_social",
+      "handle": "@TelanganaCMO",
+      "archived_url": "https://web.archive.org/web/20240705120000/https://twitter.com/TelanganaCMO/status/1810000000000000001"
+    },
+    {
+      "label": "Metro Phase 2 tenders floated — The Hindu",
+      "url": "https://www.thehindu.com/news/national/telangana/hyderabad-metro-phase-2-tenders-land-acquisition/article68720000.ece",
+      "date": "2024-09-12",
+      "outlet": "The Hindu",
+      "source_type": "news_article"
+    }
+  ],
+  "updates": [],
+  "tags": ["infrastructure", "metro", "Hyderabad", "transport"],
+  "last_reviewed": "2026-05-13"
+}

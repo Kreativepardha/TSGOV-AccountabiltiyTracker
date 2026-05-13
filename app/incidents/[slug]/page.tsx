@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import ReactMarkdown from "react-markdown"
@@ -11,10 +12,25 @@ export async function generateStaticParams() {
   return incidents.map(i => ({ slug: i.slug }))
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
   const incident = await getIncidentBySlug(slug)
-  return { title: incident?.title ?? "Incident not found" }
+  if (!incident) return { title: "Incident not found" }
+  return {
+    title: incident.title,
+    description: `${incident.category} · ${incident.district} · ${incident.date}`,
+    openGraph: {
+      title: `${incident.title} — TSGOV`,
+      description: `${incident.category} in ${incident.district} (${incident.date})`,
+      type: "article",
+      url: `https://tsgov.in/incidents/${slug}`,
+    },
+    twitter: {
+      card: "summary",
+      title: `${incident.title} — TSGOV`,
+      description: `${incident.category} in ${incident.district}`,
+    },
+  }
 }
 
 export default async function IncidentDetailPage({
@@ -94,6 +110,25 @@ export default async function IncidentDetailPage({
           </ul>
         </section>
       )}
+
+      {/* Share */}
+      <div className="border-t pt-4 flex flex-wrap gap-3 text-xs text-muted-foreground">
+        <span>Share:</span>
+        <a
+          href={`https://twitter.com/intent/tweet?url=https://tsgov.in/incidents/${incident.slug}&text=${encodeURIComponent(incident.title + " — TSGOV")}`}
+          target="_blank" rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          X / Twitter
+        </a>
+        <a
+          href={`https://wa.me/?text=${encodeURIComponent(incident.title + " — " + "https://tsgov.in/incidents/" + incident.slug)}`}
+          target="_blank" rel="noopener noreferrer"
+          className="text-green-600 hover:underline"
+        >
+          WhatsApp
+        </a>
+      </div>
     </main>
   )
 }

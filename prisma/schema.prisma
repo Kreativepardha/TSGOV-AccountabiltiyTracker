@@ -1,0 +1,140 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Published content ──────────────────────────────────────────────────────
+
+model Promise {
+  id                   String          @id @default(cuid())
+  slug                 String          @unique
+  title                String
+  category             String
+  manifesto_section    String
+  announced_date       String
+  deadline             String?
+  deadline_date        String?
+  target_beneficiaries String?
+  target_amount        String?
+  ministry             String?
+  responsible_minister String?
+  election_cycle       String?
+  districts            String[]
+  budget_allocated     String?
+  budget_spent         String?
+  current_status       String
+  evidence_grade       String
+  summary              String          @db.Text
+  tags                 String[]
+  last_reviewed        String
+  reviewer_notes       String?
+  discovery_id         String?
+  created_at           DateTime        @default(now())
+  updated_at           DateTime        @updatedAt
+
+  sources     PromiseSource[]
+  updates     PromiseUpdate[]
+  fact_checks PromiseFactCheck[]
+}
+
+model PromiseSource {
+  id           String  @id @default(cuid())
+  promise_id   String
+  label        String
+  url          String
+  date         String
+  outlet       String
+  source_type  String
+  archived_url String?
+  handle       String?
+  promise      Promise @relation(fields: [promise_id], references: [id], onDelete: Cascade)
+}
+
+model PromiseUpdate {
+  id         String               @id @default(cuid())
+  promise_id String
+  date       String
+  note       String               @db.Text
+  promise    Promise              @relation(fields: [promise_id], references: [id], onDelete: Cascade)
+  sources    PromiseUpdateSource[]
+}
+
+model PromiseUpdateSource {
+  id          String        @id @default(cuid())
+  update_id   String
+  label       String
+  url         String
+  date        String
+  outlet      String
+  source_type String
+  update      PromiseUpdate @relation(fields: [update_id], references: [id], onDelete: Cascade)
+}
+
+model PromiseFactCheck {
+  id         String  @id @default(cuid())
+  promise_id String
+  outlet     String
+  url        String
+  verdict    String
+  date       String
+  promise    Promise @relation(fields: [promise_id], references: [id], onDelete: Cascade)
+}
+
+model Incident {
+  id               String           @id @default(cuid())
+  slug             String           @unique
+  title            String
+  date             String
+  category         String
+  district         String
+  people_involved  String[]
+  evidence_grade   String
+  body             String           @db.Text
+  tags             String[]
+  related_promises String[]
+  last_reviewed    String
+  discovery_id     String?
+  created_at       DateTime         @default(now())
+  updated_at       DateTime         @updatedAt
+
+  sources IncidentSource[]
+}
+
+model IncidentSource {
+  id           String   @id @default(cuid())
+  incident_id  String
+  label        String
+  url          String
+  date         String
+  outlet       String
+  source_type  String
+  archived_url String?
+  handle       String?
+  incident     Incident @relation(fields: [incident_id], references: [id], onDelete: Cascade)
+}
+
+// ─── Discovery pipeline ─────────────────────────────────────────────────────
+
+model Discovery {
+  id                       String    @id @default(cuid())
+  title                    String
+  body_text                String?   @db.Text
+  url                      String    @unique
+  outlet                   String?
+  source_type              String?
+  date                     String?
+  discovery_source         String    // "rss" | "gdelt" | "newsapi" | "twitter_official" | "twitter_keyword"
+  suggested_category       String?
+  suggested_evidence_grade String?
+  suggested_type           String?   // "promise" | "incident" | "unknown"
+  status                   String    @default("pending_review")
+  reviewed_by              String?
+  rejection_reason         String?
+  reviewed_at              DateTime?
+  archived_url             String?
+  created_at               DateTime  @default(now())
+}
