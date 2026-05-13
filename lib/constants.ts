@@ -1,0 +1,50 @@
+export const PROMISE_STATUSES = [
+  "Fulfilled",
+  "Partially Fulfilled",
+  "In Progress",
+  "Delayed",
+  "Abandoned",
+  "Contradicted",
+  "Unverifiable",
+] as const
+
+export const EVIDENCE_GRADES = [
+  "Official Record",
+  "Primary Evidence",
+  "Multiple Sources",
+  "Single Source",
+  "Allegation",
+] as const
+
+export const EVIDENCE_GRADE_COLORS: Record<string, string> = {
+  "Official Record":   "bg-green-100 text-green-800 border-green-200",
+  "Primary Evidence":  "bg-blue-100 text-blue-800 border-blue-200",
+  "Multiple Sources":  "bg-sky-100 text-sky-800 border-sky-200",
+  "Single Source":     "bg-yellow-100 text-yellow-800 border-yellow-200",
+  "Allegation":        "bg-red-100 text-red-800 border-red-200",
+}
+
+export const STATUS_COLORS: Record<string, string> = {
+  "Fulfilled":           "bg-emerald-100 text-emerald-800 border-emerald-200",
+  "Partially Fulfilled": "bg-teal-100 text-teal-800 border-teal-200",
+  "In Progress":         "bg-blue-100 text-blue-800 border-blue-200",
+  "Delayed":             "bg-amber-100 text-amber-800 border-amber-200",
+  "Abandoned":           "bg-red-100 text-red-800 border-red-200",
+  "Contradicted":        "bg-rose-100 text-rose-800 border-rose-200",
+  "Unverifiable":        "bg-gray-100 text-gray-600 border-gray-200",
+}
+
+export const INCIDENT_CATEGORIES = [
+  "Welfare Delivery Failure",
+  "Infrastructure Failure",
+  "Flood / Disaster Management",
+  "Law & Order",
+  "Education",
+  "Farmer Issues",
+  "Financial / Fiscal",
+  "Environment",
+  "Health",
+  "Communal / Social",
+  "Scam / Corruption Allegation",
+  "Minister Controversy",
+] as const

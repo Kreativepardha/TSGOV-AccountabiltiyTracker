@@ -1,0 +1,53 @@
+{
+  "slug": "two-lakh-jobs",
+  "title": "2 lakh government jobs — recruitment drive",
+  "category": "Employment",
+  "manifesto_section": "Congress Manifesto 2023 — Employment",
+  "announced_date": "2023-11-15",
+  "deadline": "Within first year of government",
+  "target_beneficiaries": "Unemployed youth of Telangana",
+  "target_amount": "2,00,000 positions",
+  "current_status": "In Progress",
+  "evidence_grade": "Multiple Sources",
+  "summary": "The Congress manifesto promised 2 lakh government jobs. The government has announced multiple recruitment notification waves via TSPSC since 2024, but total filled positions remain substantially below the 2-lakh target as of mid-2025.",
+  "sources": [
+    {
+      "label": "TSPSC Group-I notification issued — The Hindu",
+      "url": "https://www.thehindu.com/news/national/telangana/tspsc-group-1-notification-2024/article68050000.ece",
+      "date": "2024-04-15",
+      "outlet": "The Hindu",
+      "source_type": "news_article"
+    },
+    {
+      "label": "Telangana 2 lakh jobs progress — Telangana Today",
+      "url": "https://telanganatoday.com/telangana-government-jobs-recruitment-progress-2024",
+      "date": "2024-09-20",
+      "outlet": "Telangana Today",
+      "source_type": "news_article"
+    },
+    {
+      "label": "Govt jobs recruitment update — NDTV",
+      "url": "https://www.ndtv.com/india-news/telangana-government-jobs-two-lakh-promise-status-2025",
+      "date": "2025-01-10",
+      "outlet": "NDTV",
+      "source_type": "news_article"
+    }
+  ],
+  "updates": [
+    {
+      "date": "2024-04-15",
+      "note": "TSPSC issued Group-I notification for ~563 posts. Critics note this is a fraction of the 2-lakh target.",
+      "sources": [
+        {
+          "label": "TSPSC Group-I notification — The Hindu",
+          "url": "https://www.thehindu.com/news/national/telangana/tspsc-group-1-notification-2024/article68050000.ece",
+          "date": "2024-04-15",
+          "outlet": "The Hindu",
+          "source_type": "news_article"
+        }
+      ]
+    }
+  ],
+  "tags": ["employment", "TSPSC", "youth", "recruitment"],
+  "last_reviewed": "2026-05-01"
+}
