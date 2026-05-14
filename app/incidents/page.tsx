@@ -1,5 +1,5 @@
 import { loadIncidents } from "@/lib/content"
-import { IncidentCard } from "@/components/IncidentCard"
+import { IncidentsList } from "@/components/IncidentsList"
 
 export const metadata = { title: "Incident Tracker" }
 
@@ -18,11 +18,7 @@ export default async function IncidentsPage() {
       {incidents.length === 0 ? (
         <p className="text-muted-foreground">No incidents documented yet.</p>
       ) : (
-        <div className="space-y-4">
-          {incidents.map(i => (
-            <IncidentCard key={i.slug} incident={i} />
-          ))}
-        </div>
+        <IncidentsList incidents={incidents} />
       )}
     </main>
   )

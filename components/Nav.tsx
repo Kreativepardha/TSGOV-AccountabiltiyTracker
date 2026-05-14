@@ -7,14 +7,16 @@ import { Menu, X, Scale } from "lucide-react"
 import { LanguageToggle } from "./LanguageToggle"
 
 const NAV_LINKS = [
-  { href: "/promises",   label: "Promises" },
-  { href: "/incidents",  label: "Incidents" },
-  { href: "/dashboard",  label: "Dashboard" },
-  { href: "/calendar",   label: "Calendar" },
-  { href: "/compare",    label: "Compare" },
-  { href: "/timeline",   label: "Timeline" },
-  { href: "/search",     label: "Search" },
-  { href: "/about",      label: "About" },
+  { href: "/promises",    label: "Promises" },
+  { href: "/incidents",   label: "Incidents" },
+  { href: "/dashboard",   label: "Dashboard" },
+  { href: "/politicians", label: "Politicians" },
+  { href: "/crimes",      label: "Crimes" },
+  { href: "/calendar",    label: "Calendar" },
+  { href: "/compare",     label: "Compare" },
+  { href: "/timeline",    label: "Timeline" },
+  { href: "/search",      label: "Search" },
+  { href: "/about",       label: "About" },
 ]
 
 export function Nav() {

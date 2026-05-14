@@ -85,21 +85,22 @@ model PromiseFactCheck {
 }
 
 model Incident {
-  id               String           @id @default(cuid())
-  slug             String           @unique
-  title            String
-  date             String
-  category         String
-  district         String
-  people_involved  String[]
-  evidence_grade   String
-  body             String           @db.Text
-  tags             String[]
-  related_promises String[]
-  last_reviewed    String
-  discovery_id     String?
-  created_at       DateTime         @default(now())
-  updated_at       DateTime         @updatedAt
+  id                   String           @id @default(cuid())
+  slug                 String           @unique
+  title                String
+  date                 String
+  category             String
+  district             String
+  people_involved      String[]
+  evidence_grade       String
+  body                 String           @db.Text
+  tags                 String[]
+  related_promises     String[]
+  last_reviewed        String
+  discovery_id         String?
+  affected_demographic String?
+  created_at           DateTime         @default(now())
+  updated_at           DateTime         @updatedAt
 
   sources IncidentSource[]
 }
@@ -115,6 +116,72 @@ model IncidentSource {
   archived_url String?
   handle       String?
   incident     Incident @relation(fields: [incident_id], references: [id], onDelete: Cascade)
+}
+
+// ─── Politicians & accountability ───────────────────────────────────────────
+
+model Politician {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  name            String
+  party           String
+  constituency    String?
+  position        String
+  ministry        String?
+  district        String?
+  age             Int?
+  education       String?
+  profession      String?
+  photo_url       String?
+  myneta_url      String?
+  wikipedia_url   String?
+  bio             String?  @db.Text
+  election_cycle  String?
+  created_at      DateTime @default(now())
+  updated_at      DateTime @updatedAt
+
+  criminal_cases     CriminalCase[]
+  asset_declarations AssetDeclaration[]
+}
+
+model CriminalCase {
+  id            String     @id @default(cuid())
+  politician_id String
+  case_type     String
+  ipc_sections  String[]
+  court         String?
+  case_number   String?
+  status        String
+  date_filed    String?
+  summary       String     @db.Text
+  source_url    String?
+  is_serious    Boolean    @default(false)
+  politician    Politician @relation(fields: [politician_id], references: [id], onDelete: Cascade)
+}
+
+model AssetDeclaration {
+  id               String     @id @default(cuid())
+  politician_id    String
+  year             String
+  election_type    String?
+  total_assets_inr Float?
+  liabilities_inr  Float?
+  movable_inr      Float?
+  immovable_inr    Float?
+  source_url       String?
+  politician       Politician @relation(fields: [politician_id], references: [id], onDelete: Cascade)
+}
+
+model CrimeStatistic {
+  id         String   @id @default(cuid())
+  year       String
+  district   String
+  category   String
+  count      Int
+  source     String
+  source_url String?
+  notes      String?
+  created_at DateTime @default(now())
 }
 
 // ─── Discovery pipeline ─────────────────────────────────────────────────────

@@ -1,8 +1,18 @@
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
-import { GovernmentPromiseSchema, IncidentFrontmatterSchema } from "./schemas"
-import type { GovernmentPromise, IncidentFrontmatter } from "./schemas"
+import {
+  GovernmentPromiseSchema,
+  IncidentFrontmatterSchema,
+  PoliticianSchema,
+  CrimeStatisticSchema,
+} from "./schemas"
+import type {
+  GovernmentPromise,
+  IncidentFrontmatter,
+  Politician,
+  CrimeStatistic,
+} from "./schemas"
 import { STATUS_SCORE_WEIGHT } from "./constants"
 
 export type PromiseScore = {
@@ -164,4 +174,139 @@ export async function getIncidentBySlug(
 ): Promise<(IncidentFrontmatter & { body: string }) | null> {
   const incidents = await loadIncidents()
   return incidents.find(i => i.slug === slug) ?? null
+}
+
+// ─── Politicians & crime statistics (DB-only) ───────────────────────────────
+
+async function loadPoliticiansFromDb(): Promise<Politician[]> {
+  const { db } = await import("./db")
+  type PoliticianRow = {
+    id: string
+    slug: string
+    name: string
+    party: string
+    constituency: string | null
+    position: string
+    ministry: string | null
+    district: string | null
+    age: number | null
+    education: string | null
+    profession: string | null
+    photo_url: string | null
+    myneta_url: string | null
+    wikipedia_url: string | null
+    bio: string | null
+    election_cycle: string | null
+    criminal_cases: Array<{
+      id: string
+      case_type: string
+      ipc_sections: string[]
+      court: string | null
+      case_number: string | null
+      status: string
+      date_filed: string | null
+      summary: string
+      source_url: string | null
+      is_serious: boolean
+    }>
+    asset_declarations: Array<{
+      id: string
+      year: string
+      election_type: string | null
+      total_assets_inr: number | null
+      liabilities_inr: number | null
+      movable_inr: number | null
+      immovable_inr: number | null
+      source_url: string | null
+    }>
+  }
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const rows: PoliticianRow[] = await (db as any).politician.findMany({
+    include: {
+      criminal_cases: true,
+      asset_declarations: { orderBy: { year: "asc" } },
+    },
+    orderBy: { name: "asc" },
+  })
+
+  return rows.map(row =>
+    PoliticianSchema.parse(
+      nullToUndefined({
+        ...row,
+        criminal_cases: row.criminal_cases.map(c => nullToUndefined(c)),
+        asset_declarations: row.asset_declarations.map(a => nullToUndefined(a)),
+      })
+    )
+  )
+}
+
+export async function loadPoliticians(): Promise<Politician[]> {
+  if (!USE_DB) return []
+  return loadPoliticiansFromDb()
+}
+
+export async function getPoliticianBySlug(slug: string): Promise<Politician | null> {
+  const politicians = await loadPoliticians()
+  return politicians.find(p => p.slug === slug) ?? null
+}
+
+export async function loadCrimeStats(filter?: {
+  year?: string
+  district?: string
+  category?: string
+}): Promise<CrimeStatistic[]> {
+  if (!USE_DB) return []
+  const { db } = await import("./db")
+  const where: Record<string, string> = {}
+  if (filter?.year) where.year = filter.year
+  if (filter?.district) where.district = filter.district
+  if (filter?.category) where.category = filter.category
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const rows = await (db as any).crimeStatistic.findMany({
+    where,
+    orderBy: [{ year: "desc" }, { district: "asc" }],
+  })
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return rows.map((r: any) => CrimeStatisticSchema.parse(nullToUndefined(r)))
+}
+
+// ─── Compute helpers ────────────────────────────────────────────────────────
+
+export function countSeriousCases(politician: Politician): number {
+  return politician.criminal_cases.filter(c => c.is_serious).length
+}
+
+export function totalCases(politician: Politician): number {
+  return politician.criminal_cases.length
+}
+
+export function latestAssets(politician: Politician): number {
+  if (politician.asset_declarations.length === 0) return 0
+  const sorted = [...politician.asset_declarations].sort((a, b) =>
+    b.year.localeCompare(a.year)
+  )
+  return sorted[0]?.total_assets_inr ?? 0
+}
+
+export function mlaWithMostCases(politicians: Politician[]): Politician | null {
+  if (politicians.length === 0) return null
+  return [...politicians].sort(
+    (a, b) => totalCases(b) - totalCases(a)
+  )[0]
+}
+
+export function crimeRateByDistrict(
+  stats: CrimeStatistic[],
+  district: string
+): { total: number; byCategory: Record<string, number>; byYear: Record<string, number> } {
+  const filtered = stats.filter(s => s.district === district)
+  const byCategory: Record<string, number> = {}
+  const byYear: Record<string, number> = {}
+  let total = 0
+  for (const s of filtered) {
+    total += s.count
+    byCategory[s.category] = (byCategory[s.category] ?? 0) + s.count
+    byYear[s.year] = (byYear[s.year] ?? 0) + s.count
+  }
+  return { total, byCategory, byYear }
 }
