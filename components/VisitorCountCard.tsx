@@ -4,7 +4,7 @@ import { Eye } from "lucide-react"
 async function getVisitCount(): Promise<bigint | null> {
   try {
     const row = await db.siteCounter.findUnique({ where: { key: "total_visits" } })
-    return row?.count ?? 0n
+    return row?.count ?? BigInt(0)
   } catch {
     return null
   }
