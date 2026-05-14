@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "postinstall": "prisma generate",
     "prebuild": "TS_NODE_PROJECT=tsconfig.scripts.json node -r ts-node/register scripts/build-search-index.ts",
     "build": "next build",
     "start": "next start",
