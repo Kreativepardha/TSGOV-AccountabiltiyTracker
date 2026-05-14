@@ -15,7 +15,7 @@ export default function AboutPage() {
         <p className="text-sm">
           Found an error?{" "}
           <a
-            href="https://github.com/your-org/tsgov/issues/new"
+            href="https://github.com/Kreativepardha/TSGOV-AccountabiltiyTracker/issues/new"
             className="underline inline-flex items-center gap-1"
             target="_blank"
             rel="noopener noreferrer"
