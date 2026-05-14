@@ -57,7 +57,9 @@ function buildIndex() {
     }
   }
 
-  const outPath = path.join(process.cwd(), "public/search-index.json")
+  const outDir = path.join(process.cwd(), "public")
+  fs.mkdirSync(outDir, { recursive: true })
+  const outPath = path.join(outDir, "search-index.json")
   fs.writeFileSync(outPath, JSON.stringify(docs))
   console.log(`✅ Built search index: ${docs.length} documents → ${outPath}`)
 }
