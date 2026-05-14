@@ -38,8 +38,15 @@ import * as cheerio from "cheerio"
 // ─── Config ─────────────────────────────────────────────────────────────────
 
 const INDEX_URL =
-  "https://myneta.info/Telangana2023/index.php?action=show_winners&sort=default"
+  "https://myneta.info/Telangana2023/index.php?action=show_winners&sort=candidate"
 const BASE_URL = "https://myneta.info/Telangana2023/"
+const SITE_ROOT = "https://myneta.info"
+
+function absoluteUrl(href: string): string {
+  if (href.startsWith("http")) return href
+  if (href.startsWith("/")) return SITE_ROOT + href
+  return BASE_URL + href
+}
 const USER_AGENT = "TSGOV-AccountabilityTracker/1.0 (educational research)"
 const REQUEST_DELAY_MS = 2000
 const CHECKPOINT_EVERY = 20
@@ -355,40 +362,30 @@ export function parseIndex(html: string): IndexRow[] {
   const $ = cheerio.load(html)
   const rows: IndexRow[] = []
 
-  // myneta winners table has rows with candidate name as the first link
+  // myneta 2023 winners table layout:
+  //   td[0]=serial td[1]=name td[2]=constituency td[3]=party
+  //   td[4]=criminal_cases td[5]=education td[6]=assets td[7]=liabilities
+  // The name cell contains a nested <a>; use td text directly and pick the
+  // candidate URL from the Telangana2023-scoped <a>.
   $("table tr").each((_, tr) => {
-    const cells = $(tr).find("td")
-    if (cells.length < 3) return
+    const tds = $(tr).find("td").toArray().map(td => $(td).text().trim())
+    if (tds.length < 4) return
 
-    // First link in row points to the candidate page
-    const link = $(tr).find("a[href*='candidate.php']").first()
-    if (!link.length) return
+    // Serial must be numeric for a real candidate row
+    if (!/^\d+$/.test(tds[0])) return
 
-    const href = link.attr("href")
+    const name = tds[1]
+    const constituency = tds[2]
+    const party = tds[3]
+    if (!name || !constituency) return
+
+    // Prefer Telangana2023-scoped candidate link; fall back to any candidate link
+    const scoped = $(tr).find("a[href*='Telangana2023/candidate.php']").first()
+    const fallback = $(tr).find("a[href*='candidate.php']").first()
+    const href = scoped.attr("href") ?? fallback.attr("href")
     if (!href) return
 
-    const name = link.text().trim()
-    if (!name) return
-
-    const tds = cells.toArray().map(td => $(td).text().trim())
-    // Heuristic column extraction — myneta layout has changed historically, so
-    // we accept either {serial, name, constituency, party} or {name, party, constituency}.
-    let serial = ""
-    let constituency = ""
-    let party = ""
-
-    if (/^\d+$/.test(tds[0] ?? "")) {
-      serial = tds[0]
-      // tds[1] usually contains the link text; the remaining tds hold constituency/party.
-      constituency = tds[2] ?? ""
-      party = tds[3] ?? ""
-    } else {
-      constituency = tds[1] ?? ""
-      party = tds[2] ?? ""
-    }
-
-    const candidateUrl = href.startsWith("http") ? href : BASE_URL + href
-    rows.push({ serial, name, party, constituency, candidateUrl })
+    rows.push({ serial: tds[0], name, party, constituency, candidateUrl: absoluteUrl(href) })
   })
 
   return rows
@@ -423,96 +420,103 @@ export function parseCandidate(html: string, url: string): Partial<ScrapedMLA> {
   const $ = cheerio.load(html)
   const errors: string[] = []
 
-  // --- Header: name + party + constituency ---
-  const headingText = textOf($, "h2, h3, .candidate_name, .heading")
-  const titleText = textOf($, "title")
-
-  // --- Personal: age, education, profession ---
-  const ageRaw =
-    valueByLabel($, "^age$") ??
-    valueByLabel($, "age\\s") ??
-    valueByLabel($, "\\bage\\b")
+  // --- Age: `<div><b>Age:</b> 57 </div>` (raw HTML regex, not table cell) ---
   let age: number | null = null
-  if (ageRaw) {
-    const m = ageRaw.match(/(\d+)/)
-    if (m) age = parseInt(m[1], 10)
-  } else {
-    errors.push("age:not-found")
-  }
+  const ageMatch = html.match(/<b>\s*Age\s*:\s*<\/b>\s*(\d+)/i)
+  if (ageMatch) age = parseInt(ageMatch[1], 10)
+  else errors.push("age:not-found")
 
-  const education =
-    valueByLabel($, "self.?profess.?education") ??
-    valueByLabel($, "educational") ??
-    valueByLabel($, "education")
-  const profession =
-    valueByLabel($, "profession") ?? valueByLabel($, "occupation")
+  // --- Profession: `<b>Self Profession:</b>Politics, Business<br>` ---
+  let profession: string | null = null
+  const profMatch = html.match(/<b>\s*Self Profession\s*:\s*<\/b>\s*([^<\n]+?)(?:<|$)/i)
+  if (profMatch) profession = profMatch[1].trim()
+
+  // --- Education: heading "Educational Details" followed by table or text ---
+  let education: string | null = null
+  // myneta sometimes lists "Self Education: Graduate Professional" or similar
+  const eduMatch =
+    html.match(/<b>\s*Self Education\s*:\s*<\/b>\s*([^<\n]+?)(?:<|$)/i) ??
+    html.match(/Educational Details[\s\S]{0,500}?<td[^>]*>\s*([^<]+?)\s*<\/td>/i)
+  if (eduMatch) education = eduMatch[1].trim()
 
   // --- Photo ---
-  const photoSrc = $("img[src*='photo'], img[src*='candidate']").first().attr("src")
+  const photoSrc = $("img[src*='images_candidate']").first().attr("src")
   const photo_url = photoSrc
     ? photoSrc.startsWith("http")
       ? photoSrc
-      : BASE_URL + photoSrc.replace(/^\.\//, "")
+      : absoluteUrl(photoSrc)
     : null
 
   // --- Criminal cases ---
   const cases: CriminalCaseRaw[] = []
-  // myneta puts each case in a table or numbered block. Look for headings like
-  // "Case Details(1)" / "Charges Framed By Court" / "IPC Sections Applicable"
-  $("table").each((_, tbl) => {
-    const tblText = $(tbl).text()
-    if (!/ipc|charges|case\s*details|cognizable/i.test(tblText)) return
+  const hasNoCases = /\bNo criminal cases\b/i.test(html)
 
-    const ipcMatches = Array.from(
-      tblText.matchAll(/(?:IPC|section[s]?)\s*-?\s*(\d{2,4}[A-Za-z]?)/gi)
-    ).map(m => m[1])
-    if (!ipcMatches.length) return
+  if (!hasNoCases) {
+    $("table").each((_, tbl) => {
+      const tblText = $(tbl).text()
+      if (!/ipc|charges?\s*framed|section/i.test(tblText)) return
 
-    const statusMatch = tblText.match(
-      /(charges?\s+framed|chargesheet\s+filed|fir|under\s+investigation|conviction|acquitted|stayed)/i
-    )
-    const status = statusMatch ? statusMatch[1] : "unknown"
+      // IPC section numbers — match digits with optional letter suffix
+      const ipcMatches = Array.from(
+        tblText.matchAll(/\b(?:IPC|Section)\s*-?\s*(\d{2,4}[A-Za-z]{0,2})\b/gi)
+      ).map(m => m[1])
+      if (!ipcMatches.length) return
 
-    const summary = tblText.replace(/\s+/g, " ").trim().slice(0, 500)
+      const statusMatch = tblText.match(
+        /(charges?\s+framed|chargesheet\s+filed|fir\s+filed|under\s+investigation|convicted|acquitted|stayed|cognizance\s+taken)/i
+      )
+      const status = statusMatch ? statusMatch[1].toLowerCase() : "pending"
 
-    cases.push({
-      case_type: "criminal",
-      ipc_sections: Array.from(new Set(ipcMatches)),
-      status,
-      summary,
-      is_serious: isSeriousCase(tblText),
+      const summary = tblText.replace(/\s+/g, " ").trim().slice(0, 500)
+
+      cases.push({
+        case_type: "criminal",
+        ipc_sections: Array.from(new Set(ipcMatches)),
+        status,
+        summary,
+        is_serious: isSeriousCase(tblText),
+      })
     })
-  })
+  }
 
-  // Top-line totals — myneta usually shows "Number of Criminal Cases: N" and
-  // "Number of serious IPC Cases: N" near the top of the page.
+  // Declared totals (sometimes appears near top of page)
   let total_cases = cases.length
-  const declaredTotal = $('body')
-    .text()
-    .match(/number\s+of\s+criminal\s+cases\s*[:\-]?\s*(\d+)/i)
+  const declaredTotal = html.match(/number\s+of\s+criminal\s+cases?\s*[:\-]?\s*<\/?[a-z]*>?\s*(\d+)/i)
   if (declaredTotal) {
     const n = parseInt(declaredTotal[1], 10)
-    if (!isNaN(n)) total_cases = n
+    if (!isNaN(n)) total_cases = Math.max(total_cases, n)
   }
 
   let serious_case_count = cases.filter(c => c.is_serious).length
-  const declaredSerious = $('body')
-    .text()
-    .match(/serious\s+(?:ipc\s+)?cases?\s*[:\-]?\s*(\d+)/i)
+  const declaredSerious = html.match(/serious\s+(?:ipc\s+)?cases?\s*[:\-]?\s*<\/?[a-z]*>?\s*(\d+)/i)
   if (declaredSerious) {
     const n = parseInt(declaredSerious[1], 10)
-    if (!isNaN(n)) serious_case_count = n
+    if (!isNaN(n)) serious_case_count = Math.max(serious_case_count, n)
   }
 
-  // --- Assets & Liabilities ---
-  // Totals usually shown as "Totals" row at bottom of assets table, or in a
-  // "Total Assets" / "Liabilities" row.
-  const totalAssetsRaw =
-    valueByLabel($, "totals?\\s*$") ??
-    valueByLabel($, "total\\s+assets") ??
-    valueByLabel($, "movable\\s*\\+\\s*immovable")
-  const liabRaw =
-    valueByLabel($, "total\\s+liab") ?? valueByLabel($, "liabilities")
+  // --- Total assets ---
+  // myneta shows "Totals (Calculated as Sum of Values)" with grand total in the last cell.
+  // Pattern: <td align=right><span style='color:purple'><b> Rs&nbsp;1,03,47,700 </b></span>...
+  let totalAssetsRaw: string | null = null
+  let liabRaw: string | null = null
+
+  // Find the movable assets section's "Totals" row — last <b>Rs ...</b> before "Immovable Assets" heading
+  const movableSection = html.match(
+    /Details of Movable Assets[\s\S]*?Totals\s*\(Calculated as Sum of Values\)[\s\S]*?<span\s+style=['"]color:\s*purple['"][^>]*><b>\s*([^<]+?)\s*<\/b>/i
+  )
+  if (movableSection) totalAssetsRaw = movableSection[1].trim()
+
+  // Liabilities total — similar pattern in Liabilities section
+  const liabSection = html.match(
+    /Details of Liabilities[\s\S]*?Totals\s*\(Calculated as Sum of Values\)[\s\S]*?<span\s+style=['"]color:\s*purple['"][^>]*><b>\s*([^<]+?)\s*<\/b>/i
+  )
+  if (liabSection) liabRaw = liabSection[1].trim()
+
+  // Fallback: simpler "Liabilities:" line
+  if (!liabRaw) {
+    const liabSimple = html.match(/<td>\s*Liabilities\s*:\s*<\/td>\s*<td>\s*<b>\s*([^<]+?)\s*<\/b>/i)
+    if (liabSimple) liabRaw = liabSimple[1].trim()
+  }
 
   const total_assets_inr = parseRupees(totalAssetsRaw)
   const total_liabilities_inr = parseRupees(liabRaw)
@@ -523,16 +527,16 @@ export function parseCandidate(html: string, url: string): Partial<ScrapedMLA> {
   return {
     myneta_url: url,
     age,
-    education: education || null,
-    profession: profession || null,
+    education,
+    profession,
     photo_url,
     criminal_cases: cases,
     total_cases,
     serious_case_count,
     total_assets_inr,
-    total_assets_raw: totalAssetsRaw || null,
+    total_assets_raw: totalAssetsRaw,
     total_liabilities_inr,
-    liabilities_raw: liabRaw || null,
+    liabilities_raw: liabRaw,
     parse_errors: errors,
   }
 }
