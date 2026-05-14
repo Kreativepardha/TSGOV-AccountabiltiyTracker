@@ -1,17 +1,24 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { loadPromises, loadIncidents, computeScore } from "@/lib/content"
+import { loadStateFinance } from "@/lib/state-finance"
 import { ScoreCard } from "@/components/ScoreCard"
 import { StatusBadge } from "@/components/StatusBadge"
 import { EvidenceBadge } from "@/components/EvidenceBadge"
+import { VisitorCountCard } from "@/components/VisitorCountCard"
+import { StateFinanceOverview } from "@/components/StateFinanceOverview"
+
+export const dynamic = "force-dynamic"
 
 export const metadata: Metadata = {
   title: "Dashboard — Government Delivery Score",
-  description: "Full breakdown of Telangana government promise delivery score by ministry, status, and election cycle.",
+  description:
+    "Promise delivery score, Telangana budget & debt snapshot, and pointers to site traffic analytics.",
 }
 
 export default async function DashboardPage() {
   const [promises, incidents] = await Promise.all([loadPromises(), loadIncidents()])
+  const finance = loadStateFinance()
   const score = computeScore(promises)
 
   const byStatus = Object.entries(score.byStatus).sort((a, b) => b[1] - a[1])
@@ -30,9 +37,13 @@ export default async function DashboardPage() {
         <Link href="/" className="text-sm text-muted-foreground hover:underline">← Home</Link>
         <h1 className="text-2xl font-bold mt-2">Accountability Dashboard</h1>
         <p className="text-sm text-muted-foreground mt-1">
-          Comprehensive view of promise delivery across all ministries and categories.
+          Promise delivery score, state budget context, and live visitor count.
         </p>
       </div>
+
+      <VisitorCountCard />
+
+      {finance && <StateFinanceOverview data={finance} />}
 
       <ScoreCard score={score} />
 

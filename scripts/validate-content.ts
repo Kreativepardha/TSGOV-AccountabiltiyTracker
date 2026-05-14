@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 import { GovernmentPromiseSchema, IncidentFrontmatterSchema } from "../lib/schemas"
+import { StateFinanceSnapshotSchema } from "../lib/state-finance"
 
 let errors = 0
 
@@ -45,6 +46,24 @@ function validate() {
         console.error(`❌ content/incidents/${file}: Parse error —`, e)
         errors++
       }
+    }
+  }
+
+  const financePath = path.join(process.cwd(), "content/state-finance.json")
+  if (fs.existsSync(financePath)) {
+    try {
+      const raw = JSON.parse(fs.readFileSync(financePath, "utf-8"))
+      const result = StateFinanceSnapshotSchema.safeParse(raw)
+      if (!result.success) {
+        console.error(`❌ content/state-finance.json:`)
+        console.error(JSON.stringify(result.error.flatten(), null, 2))
+        errors++
+      } else {
+        console.log("✅ content/state-finance.json")
+      }
+    } catch (e) {
+      console.error("❌ content/state-finance.json: Parse error —", e)
+      errors++
     }
   }
 

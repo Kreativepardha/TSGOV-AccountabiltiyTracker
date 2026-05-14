@@ -1,0 +1,27 @@
+{
+  "budget_year": "2025-26",
+  "basis": "Budget Estimates (BE) unless noted — Telangana state budget presented March 2025",
+  "last_reviewed": "2026-05-14",
+  "currency": "₹ crore",
+  "gsdp_projected_cr": 1800325,
+  "net_expenditure_cr": 284837,
+  "net_receipts_excluding_borrowings_cr": 230828,
+  "borrowings_be_cr": 69639,
+  "debt_repayment_cr": 20128,
+  "fiscal_deficit_cr": 54010,
+  "fiscal_deficit_pct_gsdp": 3.0,
+  "revenue_surplus_cr": 2738,
+  "revenue_surplus_pct_gsdp": 0.2,
+  "outstanding_debt_pct_gsdp_end_year": 28.1,
+  "disclaimer": "Summarized from PRS Legislative Research’s Telangana Budget Analysis 2025-26 and Telangana budget documents. Outstanding debt is expressed as a share of GSDP; verify absolute figures in official Medium Term Fiscal Policy / Finance Department publications.",
+  "sources": [
+    {
+      "title": "PRS — Telangana Budget Analysis 2025-26 (PDF)",
+      "url": "https://prsindia.org/files/budget/budget_state/telangana/2025/Telengana_Budget_Analysis_2025-26.pdf"
+    },
+    {
+      "title": "Telangana government — Budget portal",
+      "url": "https://www.telangana.gov.in/budget-2025-2026/"
+    }
+  ]
+}

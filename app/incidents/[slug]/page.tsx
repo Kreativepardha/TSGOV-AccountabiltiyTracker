@@ -8,8 +8,16 @@ import { SourceCitation } from "@/components/SourceCitation"
 import { Badge } from "@/components/ui/badge"
 
 export async function generateStaticParams() {
-  const incidents = await loadIncidents()
-  return incidents.map(i => ({ slug: i.slug }))
+  try {
+    const incidents = await loadIncidents()
+    return incidents.map(i => ({ slug: i.slug }))
+  } catch (err) {
+    console.warn(
+      "[incidents/[slug]] generateStaticParams: DB or loader failed; paths will be generated on demand.",
+      err
+    )
+    return []
+  }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

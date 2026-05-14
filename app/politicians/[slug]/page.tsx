@@ -12,8 +12,16 @@ import { PoliticianProfileTabs } from "@/components/PoliticianProfileTabs"
 import { PARTY_COLORS, normalizeParty } from "@/lib/constants"
 
 export async function generateStaticParams() {
-  const politicians = await loadPoliticians()
-  return politicians.map(p => ({ slug: p.slug }))
+  try {
+    const politicians = await loadPoliticians()
+    return politicians.map(p => ({ slug: p.slug }))
+  } catch (err) {
+    console.warn(
+      "[politicians/[slug]] generateStaticParams: DB or loader failed; paths will be generated on demand.",
+      err
+    )
+    return []
+  }
 }
 
 export async function generateMetadata({

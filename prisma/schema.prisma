@@ -186,6 +186,13 @@ model CrimeStatistic {
   created_at DateTime @default(now())
 }
 
+// ─── Site analytics ─────────────────────────────────────────────────────────
+
+model SiteCounter {
+  key   String @id
+  count BigInt @default(0)
+}
+
 // ─── Discovery pipeline ─────────────────────────────────────────────────────
 
 model Discovery {

@@ -2,7 +2,10 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { Nav } from "@/components/Nav"
+import { SiteDisclaimerBanner } from "@/components/SiteDisclaimerBanner"
 import { TranslationProvider } from "@/components/TranslationProvider"
+import { Analytics } from "@vercel/analytics/react"
+import { VisitTracker } from "@/components/VisitTracker"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -31,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <TranslationProvider>
+          <SiteDisclaimerBanner />
           <Nav />
           <div className="min-h-screen">{children}</div>
           <footer className="border-t mt-16 py-8 bg-gray-50">
@@ -59,6 +63,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             </div>
           </footer>
+          <Analytics />
+          <VisitTracker />
         </TranslationProvider>
       </body>
     </html>

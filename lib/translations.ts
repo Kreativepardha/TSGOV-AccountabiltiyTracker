@@ -50,6 +50,11 @@ export const translations = {
     announced: "Announced",
     category: "Category",
     statewide: "Statewide",
+    site_disclaimer:
+      "New site — work in progress. We’re still updating information and thoroughly fact-checking for accuracy.",
+    site_disclaimer_help_prefix: "Please help by ",
+    site_disclaimer_help_link: "contributing on GitHub",
+    site_disclaimer_help_suffix: " — corrections, sources, and content are welcome.",
   },
   te: {
     nav_home: "హోమ్",
@@ -100,6 +105,12 @@ export const translations = {
     announced: "ప్రకటించిన తేదీ",
     category: "వర్గం",
     statewide: "రాష్ట్రవ్యాప్తంగా",
+    site_disclaimer:
+      "కొత్త సైటు — పనిలో ఉంది. మేము సమాచారాన్ని నవీకరిస్తున్నాము మరియు ఖచ్చితత్వానికి వాస్తవ తనిఖీ చేస్తున్నాము.",
+    site_disclaimer_help_prefix: "దయచేసి సహాయం చేయండి — ",
+    site_disclaimer_help_link: "GitHubలో తోడ్పడండి",
+    site_disclaimer_help_suffix:
+      " — సవరణలు, మూలాలు మరియు కంటెంట్ స్వాగతం.",
   },
 } as const
 

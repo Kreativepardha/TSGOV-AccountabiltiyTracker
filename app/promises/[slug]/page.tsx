@@ -9,8 +9,16 @@ import { SourceCitation } from "@/components/SourceCitation"
 import { BudgetBar } from "@/components/BudgetBar"
 
 export async function generateStaticParams() {
-  const promises = await loadPromises()
-  return promises.map(p => ({ slug: p.slug }))
+  try {
+    const promises = await loadPromises()
+    return promises.map(p => ({ slug: p.slug }))
+  } catch (err) {
+    console.warn(
+      "[promises/[slug]] generateStaticParams: DB or loader failed; paths will be generated on demand.",
+      err
+    )
+    return []
+  }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
