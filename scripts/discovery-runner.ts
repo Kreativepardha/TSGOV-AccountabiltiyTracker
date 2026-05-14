@@ -171,6 +171,8 @@ function saveState(state: DiscoveryState): void {
 // Classification helpers
 // ---------------------------------------------------------------------------
 
+import { classifyArticle } from "../lib/nvidia-classify"
+
 function classifyText(text: string): SuggestedType {
   const lower = text.toLowerCase()
   const promiseScore = PROMISE_KEYWORDS.filter(k => lower.includes(k)).length
@@ -178,6 +180,28 @@ function classifyText(text: string): SuggestedType {
   if (incidentScore > promiseScore) return "incident"
   if (promiseScore > 0) return "promise"
   return "unknown"
+}
+
+/**
+ * Hybrid classifier — NVIDIA Qwen3 if NVIDIA_API_KEY set, else keyword fallback.
+ * Returns: { type, category, evidence_grade } with LLM enrichment when available.
+ */
+async function classifyHybrid(
+  title: string,
+  body: string,
+): Promise<{ type: SuggestedType; category: string; evidence_grade: EvidenceGrade | null }> {
+  if (process.env.NVIDIA_API_KEY) {
+    const llm = await classifyArticle(title, body)
+    if (llm) {
+      return {
+        type: llm.type as SuggestedType,
+        category: llm.category ?? suggestCategory(llm.type as SuggestedType),
+        evidence_grade: llm.evidence_grade as EvidenceGrade,
+      }
+    }
+  }
+  const type = classifyText(`${title} ${body}`)
+  return { type, category: suggestCategory(type), evidence_grade: null }
 }
 
 function suggestCategory(type: SuggestedType): string {

@@ -8,7 +8,6 @@ import path from "path"
 import matter from "gray-matter"
 import { PrismaClient } from "@prisma/client"
 import { PrismaNeon } from "@prisma/adapter-neon"
-import { Pool } from "@neondatabase/serverless"
 import { GovernmentPromiseSchema, IncidentFrontmatterSchema } from "../lib/schemas"
 
 if (!process.env.DATABASE_URL) {
@@ -16,8 +15,7 @@ if (!process.env.DATABASE_URL) {
   process.exit(1)
 }
 
-const pool = new Pool({ connectionString: process.env.DATABASE_URL })
-const adapter = new PrismaNeon(pool)
+const adapter = new PrismaNeon({ connectionString: process.env.DATABASE_URL })
 const db = new PrismaClient({ adapter } as never)
 
 async function seedPromises() {
@@ -143,7 +141,6 @@ async function main() {
   await seedIncidents()
   console.log("\n✅ Seed complete")
   await db.$disconnect()
-  await pool.end()
 }
 
 main().catch(e => {

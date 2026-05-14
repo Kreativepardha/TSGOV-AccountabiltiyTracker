@@ -92,6 +92,15 @@ function loadIncidentsFromFiles(): (IncidentFrontmatter & { body: string })[] {
 
 // ─── DB-based loaders (server-rendered mode with Prisma) ─────────────────────
 
+// Postgres returns null for optional columns; Zod optional() expects undefined.
+function nullToUndefined<T extends Record<string, unknown>>(obj: T): T {
+  const out = {} as Record<string, unknown>
+  for (const k of Object.keys(obj)) {
+    out[k] = obj[k] === null ? undefined : obj[k]
+  }
+  return out as T
+}
+
 async function loadPromisesFromDb(): Promise<GovernmentPromise[]> {
   const { db } = await import("./db")
   const rows = await db.promise.findMany({
@@ -103,16 +112,16 @@ async function loadPromisesFromDb(): Promise<GovernmentPromise[]> {
     orderBy: { category: "asc" },
   })
 
-  return rows.map(row => GovernmentPromiseSchema.parse({
+  return rows.map(row => GovernmentPromiseSchema.parse(nullToUndefined({
     ...row,
-    sources: row.sources.map(s => ({ ...s, source_type: s.source_type })),
+    sources: row.sources.map(s => nullToUndefined(s)),
     updates: row.updates.map(u => ({
       date: u.date,
       note: u.note,
-      sources: u.sources.map(s => ({ ...s, source_type: s.source_type })),
+      sources: u.sources.map(s => nullToUndefined(s)),
     })),
     fact_checks: row.fact_checks,
-  }))
+  })))
 }
 
 async function loadIncidentsFromDb(): Promise<(IncidentFrontmatter & { body: string })[]> {
@@ -123,10 +132,10 @@ async function loadIncidentsFromDb(): Promise<(IncidentFrontmatter & { body: str
   })
 
   return rows.map(row => ({
-    ...IncidentFrontmatterSchema.parse({
+    ...IncidentFrontmatterSchema.parse(nullToUndefined({
       ...row,
-      sources: row.sources.map(s => ({ ...s, source_type: s.source_type })),
-    }),
+      sources: row.sources.map(s => nullToUndefined(s)),
+    })),
     body: row.body,
   }))
 }
