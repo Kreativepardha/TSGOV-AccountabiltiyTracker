@@ -19,7 +19,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import { PARTIES, POSITIONS, PARTY_COLORS } from "@/lib/constants"
+import { PARTIES, POSITIONS, PARTY_COLORS, normalizeParty } from "@/lib/constants"
 import type { Politician } from "@/lib/schemas"
 
 function formatInr(n: number): string {
@@ -188,9 +188,9 @@ export function PoliticiansTable({ politicians }: { politicians: Politician[] })
                   <TableCell>
                     <Badge
                       variant="outline"
-                      className={`text-xs ${PARTY_COLORS[p.party] ?? ""}`}
+                      className={`text-xs ${PARTY_COLORS[normalizeParty(p.party)] ?? ""}`}
                     >
-                      {p.party}
+                      {normalizeParty(p.party)}
                     </Badge>
                   </TableCell>
                   <TableCell className="text-sm">

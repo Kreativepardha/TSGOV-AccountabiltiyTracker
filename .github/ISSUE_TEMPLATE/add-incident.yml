@@ -1,0 +1,117 @@
+name: Report an Incident
+description: Report a governance failure, delay, scam allegation, or crime
+title: "[INCIDENT] "
+labels: ["new-content", "incident", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Document a governance incident — delay, failure, scam allegation, or notable crime.
+        **All fields with sources are required.**
+
+  - type: input
+    id: title
+    attributes:
+      label: Incident title
+      description: Specific, neutral. E.g. "6-month pension arrears unpaid for 8 lakh beneficiaries"
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Date of incident (YYYY-MM-DD)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Welfare Delivery Failure
+        - Infrastructure Failure
+        - Flood / Disaster Management
+        - Law & Order
+        - Education
+        - Farmer Issues
+        - Financial / Fiscal
+        - Environment
+        - Health
+        - Communal / Social
+        - Scam / Corruption Allegation
+        - Minister Controversy
+    validations:
+      required: true
+
+  - type: input
+    id: district
+    attributes:
+      label: District
+      placeholder: "Hyderabad"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected_demographic
+    attributes:
+      label: Primarily affected demographic
+      options:
+        - women
+        - SC/ST
+        - minor
+        - minority
+        - general
+
+  - type: input
+    id: people_involved
+    attributes:
+      label: People / entities involved (comma-separated)
+      placeholder: "Minister X, Department of Y"
+
+  - type: dropdown
+    id: evidence_grade
+    attributes:
+      label: Evidence grade
+      options:
+        - Official Record
+        - Primary Evidence
+        - Multiple Sources
+        - Single Source
+        - Allegation
+    validations:
+      required: true
+
+  - type: textarea
+    id: body
+    attributes:
+      label: Full description
+      description: Factual, neutral. What happened, who was affected, scale, current state.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (one per line)
+      description: "Format: `Outlet — Label — URL — YYYY-MM-DD`"
+    validations:
+      required: true
+
+  - type: input
+    id: related_promises
+    attributes:
+      label: Related promise slugs (comma-separated, if any)
+      placeholder: "aasara-pension-hike, rythu-bharosa-farmer-support"
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have verified this is not a duplicate via [/incidents](https://tsgov.in/incidents)
+          required: true
+        - label: I understand allegations are labelled as "Allegation" grade until verified
+          required: true
+        - label: I am not naming any individual without source documentation
+          required: true

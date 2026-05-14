@@ -1,0 +1,164 @@
+name: Add a Promise
+description: Suggest a new government promise to track
+title: "[PROMISE] "
+labels: ["new-content", "promise", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to suggest a promise. **All fields with sources are required** — unsourced claims will be closed.
+
+  - type: input
+    id: title
+    attributes:
+      label: Promise title
+      description: Short, specific, action-verb (e.g. "Free bus travel for women — Mahalakshmi scheme")
+      placeholder: "₹X for Y under Z scheme"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Welfare
+        - Employment
+        - Agriculture
+        - Infrastructure
+        - Education
+        - Health
+        - Women & Child
+        - Housing
+        - Finance
+        - Governance
+    validations:
+      required: true
+
+  - type: input
+    id: manifesto_section
+    attributes:
+      label: Manifesto section
+      description: Where in the manifesto is this? E.g. "Congress Six Guarantees — Guarantee 3"
+    validations:
+      required: true
+
+  - type: input
+    id: announced_date
+    attributes:
+      label: Announced date (YYYY-MM-DD)
+      placeholder: "2023-11-15"
+    validations:
+      required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline (human-readable)
+      placeholder: "100 days from swearing-in"
+
+  - type: input
+    id: deadline_date
+    attributes:
+      label: Deadline (ISO YYYY-MM-DD, for calendar)
+      placeholder: "2024-03-16"
+
+  - type: input
+    id: ministry
+    attributes:
+      label: Responsible ministry / department
+
+  - type: input
+    id: responsible_minister
+    attributes:
+      label: Responsible minister name
+
+  - type: dropdown
+    id: election_cycle
+    attributes:
+      label: Election cycle
+      options:
+        - 2023-Congress
+        - 2018-BRS
+        - 2014-TRS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: current_status
+    attributes:
+      label: Current status
+      options:
+        - Fulfilled
+        - Partially Fulfilled
+        - In Progress
+        - Delayed
+        - Abandoned
+        - Contradicted
+        - Unverifiable
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidence_grade
+    attributes:
+      label: Evidence grade
+      description: |
+        - **Official Record**: gazette / govt order / RTI
+        - **Primary Evidence**: official govt social media / press release
+        - **Multiple Sources**: 3+ independent credible outlets
+        - **Single Source**: one credible outlet
+        - **Allegation**: unverified — reported as allegation only
+      options:
+        - Official Record
+        - Primary Evidence
+        - Multiple Sources
+        - Single Source
+        - Allegation
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary (max 500 chars)
+      description: Plain English, neutral tone. What was promised, current state, key context.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (one per line, with URL)
+      description: |
+        Format: `Outlet — Label — https://url — YYYY-MM-DD`
+        Minimum 1, prefer 3+. Government orders / official social handles count as "Primary Evidence".
+      placeholder: |
+        The Hindu — TSRTC scheme launch — https://thehindu.com/... — 2023-12-09
+        Deccan Chronicle — Scheme implementation — https://deccanchronicle.com/... — 2023-12-09
+    validations:
+      required: true
+
+  - type: input
+    id: budget_allocated
+    attributes:
+      label: Budget allocated (if known)
+      placeholder: "₹3,500 crore/year"
+
+  - type: input
+    id: budget_spent
+    attributes:
+      label: Budget spent (if known)
+      placeholder: "₹1,200 crore"
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I have searched [/promises](https://tsgov.in/promises) and this is not a duplicate
+          required: true
+        - label: Every claim in summary is backed by at least one of the sources above
+          required: true
+        - label: I understand this is a public archive licensed CC-BY-4.0
+          required: true

@@ -1,0 +1,2686 @@
+[
+  {
+    "slug": "aadi-srinivas",
+    "name": "Aadi Srinivas",
+    "party": "INC",
+    "constituency": "VEMULAWADA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Rajanna Sircilla",
+    "age": 57,
+    "education": null,
+    "profession": "Politics, Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/1722bdaefd2bc9ed32d3be2a994ebb529008953b.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=326",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 10347700,
+      "liabilities_inr": 1766212,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=326"
+    }
+  },
+  {
+    "slug": "adinarayana-jare",
+    "name": "Adinarayana Jare",
+    "party": "INC",
+    "constituency": "ASWARAOPETA (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 40,
+    "education": "self",
+    "profession": "Agriculture And Social Service",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/f67e2d3f5799ec636118a51f79d30f56b038b651.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=143",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 3497652,
+      "liabilities_inr": 1701088,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=143"
+    }
+  },
+  {
+    "slug": "adluri-laxman-kumar",
+    "name": "Adluri Laxman Kumar",
+    "party": "INC",
+    "constituency": "DHARMAPURI (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 57,
+    "education": null,
+    "profession": "Self Employed",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/e1110d6474f869e21b658cc53d7973ce6426f27d.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=71",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "151"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 192/2023, PS Dharmapuri Section 151 Crpc No No 2 162/2023, PS Dharmapuri Section 151 Crpc No No 3 110/2023, PS Dharmapuri Section 151 Crpc No No 4 86/2023, PS Dharmapuri Section 151 Crpc No No 5 70/2023, PS Velgatoor Section 151 Crpc No No 6 71/2023, PS Velgatoor 353, 341, 149 Under Investigation N",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=71"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 2871800,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=71"
+    }
+  },
+  {
+    "slug": "ahmed-bin-abdullah-balala",
+    "name": "Ahmed Bin Abdullah Balala",
+    "party": "All India Majlis-E-Ittehadul Muslimeen",
+    "constituency": "MALAKPET",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 56,
+    "education": null,
+    "profession": "politician & Businessman",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/096b9aea75436a167d32d4161fca542ad60854c7.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=179",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 92232139,
+      "liabilities_inr": 96388159,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=179"
+    }
+  },
+  {
+    "slug": "akbar-uddin-owaisi",
+    "name": "Akbar Uddin Owaisi",
+    "party": "All India Majlis-E-Ittehadul Muslimeen",
+    "constituency": "CHANDRAYANGUTTA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 53,
+    "education": null,
+    "profession": "Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/e3ab3d12f94ae67c9dc7b4765e0e00cfe928c251.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=1166",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 88769246,
+      "liabilities_inr": 59920554,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=1166"
+    }
+  },
+  {
+    "slug": "alleti-maheshwar-reddy",
+    "name": "Alleti Maheshwar Reddy",
+    "party": "BJP",
+    "constituency": "NIRMAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nirmal",
+    "age": 54,
+    "education": null,
+    "profession": "Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/e56bf351e7b5deeda027179e76f5a171c3783993.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=246",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "151",
+          "127A",
+          "126"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Cri. no.203/2018 of P.S Nirmal (T) JMFC at Nirmal188, 186, 143 No No 2 Cri. no 106/2010 of P.S Yadagirugutta (T) JMFC Yadagirigutta Section 151 Cr.P.C. No No 3 Cri. No 26/2020 of P.S Nirmal (T) CC No. 751/2020 JMFC at Nirmal 171G, 34 Section 127A of RP Act. No No 4 Cri. No. 48/2023 of P.S Nirmal(T)",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=246"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 50429532,
+      "liabilities_inr": 66515930,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=246"
+    }
+  },
+  {
+    "slug": "anil-jadhav",
+    "name": "Anil Jadhav",
+    "party": "BRS",
+    "constituency": "BOATH (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 49,
+    "education": null,
+    "profession": "Agriculture and ZPTC",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/fce07d4276dc693bf65ca6918605f0e8bbb4593a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=43",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 12468615,
+      "liabilities_inr": 2849360,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=43"
+    }
+  },
+  {
+    "slug": "anirudh-reddy-janampalli",
+    "name": "Anirudh Reddy Janampalli",
+    "party": "INC",
+    "constituency": "JADCHERLA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 42,
+    "education": null,
+    "profession": "Social Work",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/76388b0a68954345487b9da9e68be075ada6a8b1.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=102",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 131585667,
+      "liabilities_inr": 109600795,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=102"
+    }
+  },
+  {
+    "slug": "arekapudi-gandhi",
+    "name": "Arekapudi Gandhi",
+    "party": "BRS",
+    "constituency": "SERILINGAMPALLY",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Ranga Reddy",
+    "age": 62,
+    "education": null,
+    "profession": "MLA & Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/ae47b614a004ed5a368f86e24e9adfa568568ca6.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=298",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 76937822,
+      "liabilities_inr": 18268334,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=298"
+    }
+  },
+  {
+    "slug": "b-manohar-reddy",
+    "name": "B. Manohar Reddy",
+    "party": "INC",
+    "constituency": "TANDUR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Vikarabad",
+    "age": 58,
+    "education": null,
+    "profession": "Business & Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/fcb26e89ea7c29a544b3214fdcaa30e01f4d6266.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=317",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 31276391,
+      "liabilities_inr": 79524014,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=317"
+    }
+  },
+  {
+    "slug": "balu-naik-nenavath",
+    "name": "Balu Naik Nenavath",
+    "party": "INC",
+    "constituency": "DEVARAKONDA (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 51,
+    "education": null,
+    "profession": "Agriculture & Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/c049c3f3eab887d407709b7c926a6c1e1d7b03d9.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=65",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "57"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 47 of 2023 of Devarakonda Police Station, Devarakonda Town and Mandal Nalgonda District C.C. No. 326 of 2023 Honorable Additional JFCM Court Devarakonda143, 341, 34 No No 2 104 of 2021 of Gurrampode Police Station Gurrampode Mandal Nalgonda District 269, 188 Section 57 of Disaster Management Act - ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=65"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 2574164,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=65"
+    }
+  },
+  {
+    "slug": "bandari-lakshma-reddy",
+    "name": "Bandari Lakshma Reddy",
+    "party": "BRS",
+    "constituency": "UPPAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Medchal-Malkajgiri",
+    "age": 56,
+    "education": null,
+    "profession": "Business and Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/92537d743a93b333b9f44deaf0cb8432cd9e9273.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=322",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 109334757,
+      "liabilities_inr": 47386539,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=322"
+    }
+  },
+  {
+    "slug": "bandla-krishna-mohan-reddy",
+    "name": "Bandla Krishna Mohan Reddy",
+    "party": "BRS",
+    "constituency": "GADWAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Jogulamba Gadwal",
+    "age": 56,
+    "education": null,
+    "profession": "Member of Legislative Assembly and Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/4de5215021b64f26e3b73ae099d9f8334a74d1d6.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=78",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "123"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Cri. No. 363/2018, PS Gadwal Town Addl. J.F.C.M Gadwal171E Section 123(1) of R. P. Act No No 2 Crime No. 6/2014, PS II Town, Kurnool, AP Honble J.F.C.M. cum Prohibition & Excise Court, Kurnool420, 406, 468, 471 No No",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=78"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 16513150,
+      "liabilities_inr": 18220722,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=78"
+    }
+  },
+  {
+    "slug": "bathula-laxma-reddy",
+    "name": "Bathula Laxma Reddy",
+    "party": "INC",
+    "constituency": "MIRYALAGUDA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nalgonda",
+    "age": 54,
+    "education": null,
+    "profession": "BUSINESS",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/a351c52b431734424a95ddedac455cc43bf41ece.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=203",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "123"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Cr. No. 212/2023 Wadapally Police Station 188, 171B, 171E Section 123 R.P. Act. No No 2 Cr. No. 232/2020 Miryalguda II Town Police Station CC No. 1567/2021 Prl. JFCM Miryalguda143, 341, 188, 149 No No 3 Cr. No. 78/2022 Miryalguda I Town Police Station CC No. 831/2022 341, 353, 143, 149 No No 4 Cr. ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=203"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 464032035,
+      "liabilities_inr": 107958883,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=203"
+    }
+  },
+  {
+    "slug": "bhatti-vikramarka-mallu",
+    "name": "Bhatti Vikramarka Mallu",
+    "party": "INC",
+    "constituency": "MADHIRA (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 63,
+    "education": null,
+    "profession": "Political, Agriculture (Hailing from Agriculture Family)",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/5684923cef720fb69fa829a084a7218b62c6954e.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=165",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "51"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 38/2021, Saifabad PS. Hyderabad Charge Vide S.R. No. 2955/2023 and CC Awaited 143, 147, 341, 290, 149 Yes No 2 02/2022 Kothagudem 3 Town PS. CC No. 646/2022 IInd Addl. JFCM Kothagudem143, 188, 269 Section 3 of ED Act 1897, Section 51(b) of NDM Act. Yes 13 Jun 2022No 3 171/2022 Burgampahad PS. CC NO",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=165"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 19462605,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=165"
+    }
+  },
+  {
+    "slug": "bhoopathi-reddy-rekulapally",
+    "name": "Bhoopathi Reddy Rekulapally",
+    "party": "INC",
+    "constituency": "NIZAMABAD (RURAL)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 59,
+    "education": null,
+    "profession": "Doctor",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/110b5be8ff33579502124fdcf71f3ada169f1e45.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=248",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 18412300,
+      "liabilities_inr": 14790316,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=248"
+    }
+  },
+  {
+    "slug": "chamakura-malla-reddy",
+    "name": "Chamakura Malla Reddy",
+    "party": "BRS",
+    "constituency": "MEDCHAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Medchal-Malkajgiri",
+    "age": 70,
+    "education": null,
+    "profession": "Member Of Legislative Assembly  (MLA), Telargana State Private Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/c4706cefe00bfba201218682e4fd4e89328cf1da.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=198",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 57064666,
+      "liabilities_inr": 73994301,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=198"
+    }
+  },
+  {
+    "slug": "chikkudu-vamshi-krishna",
+    "name": "Chikkudu Vamshi Krishna",
+    "party": "INC",
+    "constituency": "ACHAMPET (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 57,
+    "education": null,
+    "profession": "Doctor",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/ce781f883abd181bce8747272ec7b32be65fd8ae.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=2293",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "92"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 140/2022, SHO Police Station Achampet, Achampet Town of Nagarkurnool District STC No. 726/2022 Judicial Magistrate of First Class at Achampet, Achampet Town Nagarkunool District 143, 188, 341, 149 No No 2 18/2022, SHO Police Station Achampet, Achampet Town of Nagarkurnool District CC No. 190/2022 J",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=2293"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 19256369,
+      "liabilities_inr": 45358095,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=2293"
+    }
+  },
+  {
+    "slug": "chinta-prabhakar",
+    "name": "Chinta Prabhakar",
+    "party": "BRS",
+    "constituency": "SANGAREDDY",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Sangareddy",
+    "age": 63,
+    "education": null,
+    "profession": "Chairman,Telangana State Handloom Development Corporation & Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/78aa6710aad2b01eaf4645313ba1e4aee92e1fcd.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=286",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 14514802,
+      "liabilities_inr": 700000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=286"
+    }
+  },
+  {
+    "slug": "chinthakunta-vijaya-ramana-rao",
+    "name": "Chinthakunta Vijaya Ramana Rao",
+    "party": "INC",
+    "constituency": "PEDDAPALLE",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 57,
+    "education": null,
+    "profession": "Public Service & Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/c3bcd015849dec6b236a41996342ebffbbc7931c.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=269",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "156"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 306/2018 P.S Peddapalli Dist. Peddapalli 627/2018 JMFC Peddapalli 143, 147, 341, 149 Yes 24 Sep 2018No 2 127/2016 P.S Sultanabad Dist. Peddapalli 257/2016 JMFC Sultanabad 147, 452, 427, 353, 149 Yes 27 Sep 2016No 3 126/2016 P.S. Sultanabad, Dist. Peddapalli 256/2016 JMFC Sultanabad147, 341, 427, 14",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=269"
+      },
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "174",
+          "145"
+        ],
+        "status": "convicted",
+        "summary": "Serial No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Punishment ImposedDate on which convictedAppeal FiledDetails and present status of appeal 1 349/2014 (old 449/2011) JFCM, Railways Kazipet Section 174(a)(c), 146 and 147 of Railways Act. Sec. 147, 174(a), 146 and 174(c) of Railway Act and Sentenced to pay a fine of Rs. 500/- for the offence U/sec 147 of Railways Act in default of payment of fine shall undergo SI for 5 days, sentenced to pay a fine of R",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=269"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 7255762,
+      "liabilities_inr": 13013719,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=269"
+    }
+  },
+  {
+    "slug": "chittem-parnika-reddy",
+    "name": "Chittem Parnika Reddy",
+    "party": "INC",
+    "constituency": "NARAYANPET",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Narayanpet",
+    "age": 30,
+    "education": null,
+    "profession": "Student Post Graduation",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/9f080e756872af25900cfe16a085a8149bb8a2a2.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=236",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 33598288,
+      "liabilities_inr": 2763636,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=236"
+    }
+  },
+  {
+    "slug": "danam-nagender",
+    "name": "Danam Nagender",
+    "party": "BRS",
+    "constituency": "KHAIRATABAD",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 60,
+    "education": null,
+    "profession": "MLA, Social Worker",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/2a67831c48e44b749fc582210c8e7dbaee9c52c9.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=127",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 275565252,
+      "liabilities_inr": 495530000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=127"
+    }
+  },
+  {
+    "slug": "danasari-anasuya-seethakka",
+    "name": "Danasari Anasuya Seethakka",
+    "party": "INC",
+    "constituency": "MULUG (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 52,
+    "education": null,
+    "profession": "Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/9beac7d3cc9c2d59152a4744f927062ed2a5ed1e.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=208",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "151"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Cr No 171/2022 Burgampahad PS Badradri Kothagudem CC/335/2023 Judicial Magistrate First Class (Criminal Court for Agency Areas)143, 149, 341 No No 2 Cr No 012/2022 Saifabad PS Hyderabad Section- 151 CrPC No No 3 Cr No 301/2021 Saifabad Hyderbad Section- 151 CrPC No No 4 Cr. No. 07/2017, Mulugu PS. ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=208"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 483669,
+      "liabilities_inr": 2474764,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=208"
+    }
+  },
+  {
+    "slug": "devireddy-sudhir-reddy",
+    "name": "Devireddy Sudhir Reddy",
+    "party": "BRS",
+    "constituency": "LAL BAHADUR NAGAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 61,
+    "education": null,
+    "profession": "Agriculture and Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/a906d32eea2b051d3f0062d65e899cf1d1ec4ebe.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=161",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "200"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 STC No. 7026 of 2022 Judicial Magistrate No. VI, Madurai499, 500 Section 200 C.R.P.C. No No",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=161"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 49536606,
+      "liabilities_inr": 21308317,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=161"
+    }
+  },
+  {
+    "slug": "donthi-madhava-reddy",
+    "name": "Donthi Madhava Reddy",
+    "party": "INC",
+    "constituency": "NARSAMPET",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Warangal",
+    "age": 62,
+    "education": null,
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/f9043bc2623a4bac81bf1d1ed286e69bfbcb7fa3.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=239",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 28606607,
+      "liabilities_inr": 1400313,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=239"
+    }
+  },
+  {
+    "slug": "dr-kavvampally-satyanarayana",
+    "name": "Dr. Kavvampally Satyanarayana",
+    "party": "INC",
+    "constituency": "MANAKONDUR (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 58,
+    "education": null,
+    "profession": "DOCTOR",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/3eae592685eddbc02e102ac7c5a33cef9e7b05b3.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=187",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 26236000,
+      "liabilities_inr": 41872776,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=187"
+    }
+  },
+  {
+    "slug": "dr-kuchkulla-rajesh-reddy",
+    "name": "Dr. Kuchkulla Rajesh Reddy",
+    "party": "INC",
+    "constituency": "NAGARKURNOOL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nagarkurnool",
+    "age": 50,
+    "education": null,
+    "profession": "Profession Dental Doctor (Master of Dental Surgery)",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/2c883a509a4cc2ae4e30cc8bafdbca42766ccf09.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=220",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 41906043,
+      "liabilities_inr": 12000000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=220"
+    }
+  },
+  {
+    "slug": "dr-murali-naik-bhukya",
+    "name": "Dr. Murali Naik Bhukya",
+    "party": "INC",
+    "constituency": "MAHABUBABAD (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 57,
+    "education": null,
+    "profession": "Medical Practitioner",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/2935cddbea8c7390649becc6dc98bfa1d2f25553.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=168",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 8759287,
+      "liabilities_inr": 3587411,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=168"
+    }
+  },
+  {
+    "slug": "dr-sanjay",
+    "name": "Dr. Sanjay",
+    "party": "BRS",
+    "constituency": "JAGTIAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Jagtial",
+    "age": 61,
+    "education": null,
+    "profession": "Medical Practitioner & Member of Lagislatie Assembly",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/b28d949312e523f303bfded0cf7a4b1e17216d74.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=103",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 43075489,
+      "liabilities_inr": 11616066,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=103"
+    }
+  },
+  {
+    "slug": "dr-tellam-venkata-rao",
+    "name": "Dr. Tellam Venkata Rao",
+    "party": "BRS",
+    "constituency": "BHADRACHALAM (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 55,
+    "education": null,
+    "profession": "Doctor",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/1bd9c1cfd2f208a1f38ae879f7dbc04c53d4649a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=34",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "126"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 261/2018, P.S Bhadrachalam Metropolitan Session Judge (Special Court for MLA, MP, Election Offenses) Nampally Hyderabad188 Section 126 of The Representation of the People Act 1951 No No 2 314/2018, P.S Bhadrachalam Metropolitan Session Judge (Special Court for MLA, MP, Election Offenses) Nampally H",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=34"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 4872548,
+      "liabilities_inr": 8910544,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=34"
+    }
+  },
+  {
+    "slug": "drpalvai-harish-babu",
+    "name": "Dr.Palvai Harish Babu",
+    "party": "BJP",
+    "constituency": "SIRPUR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Komaram Bheem Asifabad",
+    "age": 44,
+    "education": null,
+    "profession": "Doctor, Paediatric Orthopaedic Surgeon",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/bb9e743621635e6661dd738aadbf27e7577411f4.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=312",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "51"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Cr. No. 127/1, PS. Kaghaznagar Town CC No. 400/18 Judicial First Class Magistrate Sirpur143, 147, 188, 341, 149 No No 2 Cr. No. 92/18, PS. Koutala CC No. 412/18 Judicial First Class Magistrate, Sirpur188, 290 No No 3 Cr. No. 33/19, PS. Kaghaznagar Town CC No. 404/19 Judicial First Class Magistrate ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=312"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 7650000,
+      "liabilities_inr": 1600000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=312"
+    }
+  },
+  {
+    "slug": "duddilla-sridhar-babu",
+    "name": "Duddilla Sridhar Babu",
+    "party": "INC",
+    "constituency": "MANTHANI",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Peddapalli",
+    "age": 54,
+    "education": null,
+    "profession": "Advocate / Public Service & Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/250a12c8c7ea3f70095468d40f4003975872c377.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=193",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "123"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 230/2023 Manthani P.S. Peddapalli District 171G, 505B Section- 123(4) of R.P. Act 1951 No Yes CRLP No. 10726/2023 filed before the Honorable High Court for the State of Telangana at Hyderabad 2 171/2022 Burgampahad P.S. Bhadradri Kothagudem District C.C. No. 335/2023 Judicial Magistrate of First Cl",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=193"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 52915320,
+      "liabilities_inr": 17904192,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=193"
+    }
+  },
+  {
+    "slug": "gaddam-vinod",
+    "name": "Gaddam Vinod",
+    "party": "INC",
+    "constituency": "BELLAMPALLI (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 67,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/b3631722add9967c1777598bdcdab8efccd408e7.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=358",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "11",
+          "13"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 13/ACB-CIU-HYD/2011, CIU-ACB Police Station-Banjareahills Road No. 12 MLA Colony Hyderabad CC No. 27 of 2017 Addl. ACB Court V Add Chief Judge Hyderabad406, 409, 420, 34 Section 11, 12, 13(1)(d)(i)(ii)(iii) of Prevention of Corruption Act. 1988 No Yes 2 17/ACB-CIU-HYD/2011 CIU-ACB Police Station Ba",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=358"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 249233882,
+      "liabilities_inr": 66032715,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=358"
+    }
+  },
+  {
+    "slug": "gaddam-vivekanand",
+    "name": "Gaddam Vivekanand",
+    "party": "INC",
+    "constituency": "CHENNUR (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 66,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/e77c82de8f13bbeb265fecc40982a0e345d4e472.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=56",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "51",
+          "126",
+          "123"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 339/2021, Intezargunj Police Station Warangal CC No. 1010/2023 2-I Addl. Junior Civil Judge-cum- I Addl. Judicial Magistrate of First Class, Warangal188 Section 51(B) of DM Act 2005, Section 126, 127 Representation of Peoples Act. No No 2 393/2020 Begumpet Police Station Hyderabad CC No. 1734/2023 ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=56"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 3807638171,
+      "liabilities_inr": 442052948,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=56"
+    }
+  },
+  {
+    "slug": "gandra-satyanarayana-rao",
+    "name": "Gandra Satyanarayana Rao",
+    "party": "INC",
+    "constituency": "BHUPALPALLE",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Jayashankar Bhupalpally",
+    "age": 58,
+    "education": "self",
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/0311e4a75fe66d3bcb775bd7a83cbde249dac3f4.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=41",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 12312514,
+      "liabilities_inr": 17840000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=41"
+    }
+  },
+  {
+    "slug": "gangula-kamalakar",
+    "name": "Gangula Kamalakar",
+    "party": "BRS",
+    "constituency": "KARIMNAGAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Karimnagar",
+    "age": 56,
+    "education": null,
+    "profession": "Politician and Businessmen",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/45ce438fd37b5174ae8aa0ee686310229f59fb81.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=121",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 202089462,
+      "liabilities_inr": 5064273,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=121"
+    }
+  },
+  {
+    "slug": "gavinolla-madhusudan-reddy-gmr",
+    "name": "Gavinolla Madhusudan Reddy (Gmr)",
+    "party": "INC",
+    "constituency": "DEVARKADRA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 52,
+    "education": null,
+    "profession": "Advocate",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/bf7e1526afd3c48fe86f7803099ddff28d06aeb3.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=68",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "151"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 15/2020 Kothakota Police Station CC No. 825/2022 Junior Civil Judge cum JMFC, Atmakur448, 188, 171 No No 2 117/2022, II Town Police Station Mahabubnagar CC No. 221/2022 III Addl. Junior Civil Judge cum III Addl. JMFC, Mahabubnagar341, 353, 34 No No 3 108/2021, Police Station Addakal CC No. 268/2022",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=68"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 14014000,
+      "liabilities_inr": 11300000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=68"
+    }
+  },
+  {
+    "slug": "gudem-mahipal-reddy",
+    "name": "Gudem Mahipal Reddy",
+    "party": "BRS",
+    "constituency": "PATANCHERU",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Sangareddy",
+    "age": 60,
+    "education": null,
+    "profession": "Member of Legislative Assembly and Business.",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/72f3aef2f21a5fd0a4eead82368f98c97a6d314e.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=265",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 58849889,
+      "liabilities_inr": 56091915,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=265"
+    }
+  },
+  {
+    "slug": "guntakandla-jagadish-reddy",
+    "name": "Guntakandla Jagadish Reddy",
+    "party": "BRS",
+    "constituency": "SURYAPET",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Suryapet",
+    "age": 58,
+    "education": null,
+    "profession": "Agriculture, Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/e543f1a315dc6c6044fed05ae310026e8a38bcbb.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=313",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 65406586,
+      "liabilities_inr": 33024170,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=313"
+    }
+  },
+  {
+    "slug": "ilaiah-beerla",
+    "name": "Ilaiah Beerla",
+    "party": "INC",
+    "constituency": "ALAIR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Yadadri Bhuvanagiri",
+    "age": 48,
+    "education": null,
+    "profession": "Business Real Estate",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/a8b1480c66d056bea863c0e5cf3fc77795cc4bd0.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=9",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "51"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 209/2020, PS Yadagirigutt CC NO. 72/21 ALER Junior Civil Judge447, 427, 504, 506 Case Was Compromised in Lok Adalat on 09/07/2021 No No 2 326/2020, PS Yadagirigutt CC NO. 121/2021 ALER Junior Civil Judge447, 427, 34 Yes 10 Jan 2021No 3 22/2023, PS Yadagirigutt CC NO. 206/2023 ALER Junior Civil Judg",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=9"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 38761149,
+      "liabilities_inr": 31777480,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=9"
+    }
+  },
+  {
+    "slug": "jatoth-ram-chander-naik",
+    "name": "Jatoth Ram Chander Naik",
+    "party": "INC",
+    "constituency": "DORNAKAL (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 48,
+    "education": null,
+    "profession": "Doctor M.B.B.S M.S",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/02b718c5f185bf27ebfdfcaab87e8657896c91ec.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=74",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 22153193,
+      "liabilities_inr": 55613703,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=74"
+    }
+  },
+  {
+    "slug": "jupally-krishna-rao",
+    "name": "Jupally Krishna Rao",
+    "party": "INC",
+    "constituency": "KOLLAPUR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nagarkurnool",
+    "age": 68,
+    "education": null,
+    "profession": "Politician and Social Worker",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/10e80f7090c2977902e7ec6db648da2d19327558.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=151",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 7802832,
+      "liabilities_inr": 15000000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=151"
+    }
+  },
+  {
+    "slug": "k-shankaraiah",
+    "name": "K Shankaraiah",
+    "party": "INC",
+    "constituency": "SHADNAGAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Ranga Reddy",
+    "age": 54,
+    "education": null,
+    "profession": "AGRICULTURE AND BUSINESS",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/0a9a73a17f8658bc65795485b6595b6c57f1e022.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=303",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 22600000,
+      "liabilities_inr": 7200000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=303"
+    }
+  },
+  {
+    "slug": "kp-vivekanand",
+    "name": "K.P. Vivekanand",
+    "party": "BRS",
+    "constituency": "QUTHBULLAPUR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Medchal-Malkajgiri",
+    "age": 46,
+    "education": null,
+    "profession": "I am Civil Engineer by Profession and Politician by Occupation",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/567a1720f2a977828c415dcbf1a9857499b10028.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=274",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 26239369,
+      "liabilities_inr": 84857409,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=274"
+    }
+  },
+  {
+    "slug": "krnagarajk",
+    "name": "K.R.Nagaraj.K",
+    "party": "INC",
+    "constituency": "WARADHANAPET (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 60,
+    "education": null,
+    "profession": "Retired Employee & Social Service",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/558de6773df5697caa915d073e9c2190e0d86dd3.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=334",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 14750000,
+      "liabilities_inr": 2040032,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=334"
+    }
+  },
+  {
+    "slug": "kadiyam-srihari",
+    "name": "Kadiyam Srihari",
+    "party": "BRS",
+    "constituency": "GHANPUR (STATION) (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 73,
+    "education": null,
+    "profession": "MLC",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/b305cd6ea4f0d3f85f6d80023d436d145f605a2d.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=84",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 10638623,
+      "liabilities_inr": 5664573,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=84"
+    }
+  },
+  {
+    "slug": "kale-yadaiah",
+    "name": "Kale Yadaiah",
+    "party": "BRS",
+    "constituency": "CHEVELLA (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 61,
+    "education": null,
+    "profession": "MLA and Farmer",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/d9482efdacfa84e8f6e91d86bcaedd886b75a6c3.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=57",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 12817008,
+      "liabilities_inr": 1930651,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=57"
+    }
+  },
+  {
+    "slug": "kaleru-venkatesh",
+    "name": "Kaleru Venkatesh",
+    "party": "BRS",
+    "constituency": "AMBERPET",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 63,
+    "education": null,
+    "profession": "Advocte & MLA",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/f0f3f0cb19ed71d97f3ba98004cc44a51bf8ba3e.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=12",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 20926696,
+      "liabilities_inr": 29989514,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=12"
+    }
+  },
+  {
+    "slug": "kalvakuntla-sanjay",
+    "name": "Kalvakuntla Sanjay",
+    "party": "BRS",
+    "constituency": "KORATLA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 47,
+    "education": null,
+    "profession": "Doctor",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/daa67bfb5b1971b2e7f8e4d7e88ca164e7ad5e8b.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=152",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 74523700,
+      "liabilities_inr": 34892956,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=152"
+    }
+  },
+  {
+    "slug": "kalvakuntla-taraka-rama-rao",
+    "name": "Kalvakuntla Taraka Rama Rao",
+    "party": "BRS",
+    "constituency": "SIRCILLA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Rajanna Sircilla",
+    "age": 47,
+    "education": null,
+    "profession": "Agriculture And Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/bb1acc4e6ed40991703496e228aa9161f4dd4550.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=309",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 350102961,
+      "liabilities_inr": 119980331,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=309"
+    }
+  },
+  {
+    "slug": "katipally-venkata-ramana-reddy",
+    "name": "Katipally Venkata Ramana Reddy",
+    "party": "BJP",
+    "constituency": "KAMAREDDY",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Kamareddy",
+    "age": 53,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/9c72cf8ad7113b105190a1f7d0bebe6d13cd5783.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=119",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 22135869,
+      "liabilities_inr": 5828615,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=119"
+    }
+  },
+  {
+    "slug": "kausar-mohiuddin",
+    "name": "Kausar Mohiuddin",
+    "party": "All India Majlis-E-Ittehadul Muslimeen",
+    "constituency": "KARWAN",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 59,
+    "education": null,
+    "profession": "Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/08019d4e25d1065baa99ed7c71b9d8a9f529ffb2.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=1428",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 7962417,
+      "liabilities_inr": 839374,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=1428"
+    }
+  },
+  {
+    "slug": "kaushik-reddy-padi",
+    "name": "Kaushik Reddy Padi",
+    "party": "BRS",
+    "constituency": "HUZURABAD",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Karimnagar",
+    "age": 38,
+    "education": null,
+    "profession": "MLC, Landlord",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/0f51d076a63163417d0b59f22bda9f06d223b21c.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=91",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 26400000,
+      "liabilities_inr": 35000000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=91"
+    }
+  },
+  {
+    "slug": "kokkirala-premsagar-rao",
+    "name": "Kokkirala Premsagar Rao",
+    "party": "INC",
+    "constituency": "MANCHERIAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Mancherial",
+    "age": 63,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/f725318a330fc002e9a3ef240fdf83c5fd182d40.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=190",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "34",
+          "138"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 249/2017, PS Utnoor 147, 448, 427, 120B, 188 No No 2 250/2017, PS Utnoor 457, 380, 307, 120B, 188 No No 3 251/2017, PS Utnoor 457, 380, 435, 120B, 188 No No 4 252/2017, PS Utnoor 457, 380, 427, 120B, 188 No No 5 253/2017, PS Utnoor 395, 398, 120B, 188 No No 6 254/2017, PS Utnoor 447, 427, 120B, 188",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=190"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 147680822,
+      "liabilities_inr": 120543127,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=190"
+    }
+  },
+  {
+    "slug": "komati-reddy-venkat-reddy",
+    "name": "Komati Reddy Venkat Reddy",
+    "party": "INC",
+    "constituency": "NALGONDA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nalgonda",
+    "age": 60,
+    "education": null,
+    "profession": "Agricuture, Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/bc4fde92989d1f56d14701821203a245f62025f3.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=226",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 115469513,
+      "liabilities_inr": 64477630,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=226"
+    }
+  },
+  {
+    "slug": "komatireddy-raj-gopal-reddy",
+    "name": "Komatireddy Raj Gopal Reddy",
+    "party": "INC",
+    "constituency": "MUNUGODE",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nalgonda",
+    "age": 56,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/fe41203d0f39ab88c350b19b6fc042af51fe0e08.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=211",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "151"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 105/2009, PS Bhongir town Yadadri Bhongir Dist, C.C. No. 852 of 2016 Spl. Judicial Magistrate of Second Class Court Bhongir Dist188 No No 2 264/2010, Osmania PS Hyderabad Charge Sheet Not Filed IV ACMM, Hyderabad Section 151 Cr.P.C. No No 3 321/2021, Choutuppal C.C.No.92 of 2022 Junior Civil Judge ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=211"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 3015535078,
+      "liabilities_inr": 41436400,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=211"
+    }
+  },
+  {
+    "slug": "koninty-manik-rao",
+    "name": "Koninty Manik Rao",
+    "party": "BRS",
+    "constituency": "ZAHIRABAD (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 68,
+    "education": null,
+    "profession": "Retired Govt. Employee (RTO) and MLA for 038 Zahirabad Constituency",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/fec9ec8a4441f43c5436923d71d958675147f861.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=355",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 12904274,
+      "liabilities_inr": 3617226,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=355"
+    }
+  },
+  {
+    "slug": "koram-kanakaiah",
+    "name": "Koram Kanakaiah",
+    "party": "INC",
+    "constituency": "YELLANDU (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 61,
+    "education": "self",
+    "profession": "Social Worker,Poltician,  Agriculture & Z.P. Chairperson",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/ee05126aa155d6ff41e16ce8277d696ae3ba5557.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=350",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "127A"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 208/2018, PS Yellandu C.C. No. 2827/2021 Judicial First Class, Magistrate Khammam188 Section 127A of RP Act 1951 No No",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=350"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 2553000,
+      "liabilities_inr": 1339921,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=350"
+    }
+  },
+  {
+    "slug": "kotta-prabhakar-reddy",
+    "name": "Kotta Prabhakar Reddy",
+    "party": "BRS",
+    "constituency": "DUBBAK",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Siddipet",
+    "age": 60,
+    "education": null,
+    "profession": "Member of parliament",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/af412a1f7054b2ff102b13485774d9b2d92933c1.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=75",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 166966429,
+      "liabilities_inr": 128044753,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=75"
+    }
+  },
+  {
+    "slug": "kova-laxmi",
+    "name": "Kova Laxmi",
+    "party": "BRS",
+    "constituency": "ASIFABAD (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 53,
+    "education": "self",
+    "profession": "Zila Parishad Chairperson-Kumram Bheem Asifabad",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/3bd2ed77b12c36ef08c611e2a3802dcecae3e575.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=19",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 10125153,
+      "liabilities_inr": 1400000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=19"
+    }
+  },
+  {
+    "slug": "kumbam-anil-kumar-reddy",
+    "name": "Kumbam Anil Kumar Reddy",
+    "party": "INC",
+    "constituency": "BHONGIR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Yadadri Bhuvanagiri",
+    "age": 62,
+    "education": null,
+    "profession": "Developer & Builder",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/e47ee98901c1de54f04c2db23e1eec96722f73f4.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=39",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 676473808,
+      "liabilities_inr": 130060000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=39"
+    }
+  },
+  {
+    "slug": "kunamneni-sambasiva-rao",
+    "name": "Kunamneni Sambasiva Rao",
+    "party": "CPI",
+    "constituency": "KOTHAGUDEM",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Bhadradri Kothagudem",
+    "age": 67,
+    "education": null,
+    "profession": "Social Service",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/5976f3b515f2cc0f4f6d459071600cf6cf8c527a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=156",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 10739376,
+      "liabilities_inr": 432246,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=156"
+    }
+  },
+  {
+    "slug": "kunduru-jayaveer",
+    "name": "Kunduru Jayaveer",
+    "party": "INC",
+    "constituency": "NAGARJUNA SAGAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nalgonda",
+    "age": 41,
+    "education": null,
+    "profession": "Business And Public Services",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/a498462809cd547ef8f9d38f122ce034e5a45791.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=217",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 344869884,
+      "liabilities_inr": 88985000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=217"
+    }
+  },
+  {
+    "slug": "lasya-nanditha-sayanna",
+    "name": "Lasya Nanditha Sayanna",
+    "party": "BRS",
+    "constituency": "SECUNDERABAD CANTT. (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 36,
+    "education": null,
+    "profession": "POLITICIAN",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/40c00c3cc04c081b9f2d91ec91431a4761a208c5.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=295",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 8750852,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=295"
+    }
+  },
+  {
+    "slug": "madan-mohan-rao-k",
+    "name": "Madan Mohan Rao. K",
+    "party": "INC",
+    "constituency": "YELLAREDDY",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Kamareddy",
+    "age": 54,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/cb4a79d111390f80745459d3abe4631d52484aef.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=353",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "51"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Crime No. 258/2020, Banswada Police Station CC No. 150/2020 JMFC, Banswada188, 269 Section 3 EDA, Section 51(B) DMA Yes 02 Feb 2021No 2 Crime No. 230/2020, Banswada Police Station CC No. 102/2020 JMFC, Banswada504, 506 Yes 03 Feb 2021No",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=353"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 303402269,
+      "liabilities_inr": 91686436,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=353"
+    }
+  },
+  {
+    "slug": "madhavaram-krishna-rao",
+    "name": "Madhavaram Krishna Rao",
+    "party": "BRS",
+    "constituency": "KUKATPALLE",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 57,
+    "education": null,
+    "profession": "Agriculture and Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/ff47b606fe1f44240c77bd91b22eb5790374b99b.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=158",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 7690357,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=158"
+    }
+  },
+  {
+    "slug": "maganti-gopinath",
+    "name": "Maganti Gopinath",
+    "party": "BRS",
+    "constituency": "JUBILEE HILLS",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 60,
+    "education": null,
+    "profession": "Polictical Service/Member of Legislative Assembly",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/37aa8812a529f1fc897fa45f5f6ee51f0f9223f5.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=109",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 57342479,
+      "liabilities_inr": 3000000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=109"
+    }
+  },
+  {
+    "slug": "makkan-singh-raj-thakur",
+    "name": "Makkan Singh Raj Thakur",
+    "party": "INC",
+    "constituency": "RAMAGUNDAM",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Peddapalli",
+    "age": 52,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/84f309f1fe4db86c5c4eb05bf05cedf153c7aa8b.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=281",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 2938190,
+      "liabilities_inr": 15270000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=281"
+    }
+  },
+  {
+    "slug": "malreddy-ranga-reddy",
+    "name": "Malreddy Ranga Reddy",
+    "party": "INC",
+    "constituency": "IBRAHIMPATNAM",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Ranga Reddy",
+    "age": 67,
+    "education": null,
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/6980c22b7464b9a9dab4eb8dc39fccd736f47413.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=99",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "151"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 465/2023, Vanasthalipuram PS XIV AMM Hayathnagar505(1), 505(2), 153A No No 2 1177/2022, LB Nagar P.S. II AMM, LB Nagar Section 151 Cr. P.C. No No 3 206/2020, Pharmacity P.S. CC No. 353/2021 XVI A.M.M, Ibrahimpatnam188, 269, 504 Section 3 EDA Yes 20 Apr 2021No 4 235/2019, Saifabad P.S. I A.C.M.M Nam",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=99"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 54178714,
+      "liabilities_inr": 32605237,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=99"
+    }
+  },
+  {
+    "slug": "mandula-samel",
+    "name": "Mandula Samel",
+    "party": "INC",
+    "constituency": "THUNGATHURTHI (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 62,
+    "education": null,
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/54c64179382efc8cce572331b7e1061bf2e63978.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=320",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 2528660,
+      "liabilities_inr": 8475000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=320"
+    }
+  },
+  {
+    "slug": "marri-rajashekar-reddy",
+    "name": "Marri Rajashekar Reddy",
+    "party": "BRS",
+    "constituency": "MALKAJGIRI",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Medchal-Malkajgiri",
+    "age": 54,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/65cdcf55dbb40a04dfdb633102a7b59170dbe24e.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=183",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 173203208,
+      "liabilities_inr": 81132657,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=183"
+    }
+  },
+  {
+    "slug": "matta-ragamayee",
+    "name": "Matta Ragamayee",
+    "party": "INC",
+    "constituency": "SATHUPALLE (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 52,
+    "education": null,
+    "profession": "Doctor",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/c64ba83b358941d2f5b73cd4faffb465b3d8f064.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=290",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 17513997,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=290"
+    }
+  },
+  {
+    "slug": "megha-reddy-tudi",
+    "name": "Megha Reddy Tudi",
+    "party": "INC",
+    "constituency": "WANAPARTHY",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Wanaparthy",
+    "age": 51,
+    "education": null,
+    "profession": "Employee (CorporateSalary) & Mandal Praja Parishad President",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/4ad9cba802be7040da420e6db19037006f241f6a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=332",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "32"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Crime No. 141/2023, PS Wanaparthy Town, Date- 07/08/2023 C.C. No. 574/2023 1st Addl. JFCM, Wanaparthy341, 290 Section 32 of Police Act No No 2 Crime No. 58/2023, PS Wanaparthy, Date- 12/04/2023 420, 406, 506 No Yes I Have Filed the criminal petition before the Honble High Court for the state of Tel",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=332"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 45900707,
+      "liabilities_inr": 36534928,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=332"
+    }
+  },
+  {
+    "slug": "mir-zulfeqar-ali",
+    "name": "Mir Zulfeqar Ali",
+    "party": "All India Majlis-E-Ittehadul Muslimeen",
+    "constituency": "CHARMINAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 60,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/cbe7e00e1a9a254c9a37229477e493928cd01141.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=148",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 12368471,
+      "liabilities_inr": 19713115,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=148"
+    }
+  },
+  {
+    "slug": "mohammed-majid-hussain",
+    "name": "Mohammed Majid Hussain",
+    "party": "All India Majlis-E-Ittehadul Muslimeen",
+    "constituency": "NAMPALLY",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 43,
+    "education": null,
+    "profession": "Corporator (Mehdipatnam)",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/5254d526500fb3a7b2de08a7b1712ccf851a4991.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=231",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 14371608,
+      "liabilities_inr": 1688662,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=231"
+    }
+  },
+  {
+    "slug": "mohammed-mubeen",
+    "name": "Mohammed Mubeen",
+    "party": "All India Majlis-E-Ittehadul Muslimeen",
+    "constituency": "BAHADURPURA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 55,
+    "education": null,
+    "profession": "Corporator",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/2ae386e250f7d3a66c987574beb9f5b5011435ef.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=1442",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 2345139,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=1442"
+    }
+  },
+  {
+    "slug": "muta-gopal",
+    "name": "Muta Gopal",
+    "party": "BRS",
+    "constituency": "MUSHEERABAD",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 70,
+    "education": null,
+    "profession": "MLA & Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/574a8659adc43804045535371df5c97c61eee40a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=215",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 13351473,
+      "liabilities_inr": 4725956,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=215"
+    }
+  },
+  {
+    "slug": "mynampally-rohith",
+    "name": "Mynampally Rohith",
+    "party": "INC",
+    "constituency": "MEDAK",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Medak",
+    "age": 26,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/f28ec135ba59d40f1b389e0fcca00dc21a455c0a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=196",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 38651926,
+      "liabilities_inr": 8904325,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=196"
+    }
+  },
+  {
+    "slug": "naini-rajender-reddy",
+    "name": "Naini Rajender Reddy",
+    "party": "INC",
+    "constituency": "WARANGAL WEST",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hanumakonda",
+    "age": 54,
+    "education": null,
+    "profession": "Business, Agriculture, Politics & Social Worker",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/a193e9245532af410b312dd3f000b5e3911bbfef.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=340",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "51",
+          "45",
+          "27"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 343/2023 SHO PS. Hanamkonda CC No. 2129/2023 2nd MM Hanamkonda155(2), 504 No No 2 216/2023 SHO PS. Subedari CC No. 1492/2023 3rd MM Hanamkonda Court504, 505(II) No No 3 337/2022 SHO PS. Subedari PRC No. 01/2023 3rd MM Hanamkonda143, 307, 341, 332, 353, 149 No No 4 539/2021 SHO PS Hanamkonda CC No. ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=340"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 24480333,
+      "liabilities_inr": 12612970,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=340"
+    }
+  },
+  {
+    "slug": "nalamada-padmavathi-reddy",
+    "name": "Nalamada Padmavathi Reddy",
+    "party": "INC",
+    "constituency": "KODAD",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Suryapet",
+    "age": 55,
+    "education": null,
+    "profession": "Politician and Architect",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/07a5935032e1baec981a1a3d7a43158850300b36.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=137",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "30"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 283/2019 SHO, Huzurnagar PS CC No.-646/2022 341, 188, 34 Section 30 of Police Act. No No 2 238/2019,SHO Mattampally PS CC No.-653/2022 341, 188, 34 No No 3 169/2019 SHO, Nereducherla PS CC.No.-670/2022 188 Sec-30 of Police Act. No No",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=137"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 13251844,
+      "liabilities_inr": 8568468,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=137"
+    }
+  },
+  {
+    "slug": "p-sudarshan-reddy",
+    "name": "P. Sudarshan Reddy",
+    "party": "INC",
+    "constituency": "BODHAN",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nizamabad",
+    "age": 73,
+    "education": null,
+    "profession": "Business And Pension",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/8b625147433b2f5591b2431e08fbac03fa29f69f.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=48",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 689860983,
+      "liabilities_inr": 158880797,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=48"
+    }
+  },
+  {
+    "slug": "padma-rao-t",
+    "name": "Padma Rao. T",
+    "party": "BRS",
+    "constituency": "SECUNDERABAD",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 69,
+    "education": null,
+    "profession": "Politician",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/4d31ed0f09275a6c529168ad3ba5fa63eb421009.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=292",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 27676499,
+      "liabilities_inr": 1407000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=292"
+    }
+  },
+  {
+    "slug": "paidi-rakesh-reddy",
+    "name": "Paidi Rakesh Reddy",
+    "party": "BJP",
+    "constituency": "ARMUR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 56,
+    "education": null,
+    "profession": "Agriculture and Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/4db7c71616ebb6381cb370794588f0132683f028.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=17",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "20",
+          "36",
+          "32",
+          "51"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 213/2021, PS Mahanandi Rural, Kurnool District AP CC No. 780/2023 JFCM cum Special JFCM RSSC Red Sanders Special Cases Court, Tirupathi AP447, 427, 379, 34 Section-20(1)(d)(i) r/w Section-20(1)(c)(ii)(iii)(iv)(ix) and (x) of AP Forest Act, Section 36 Amendment Act 2016, Section 32(A) of A.P. Forest",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=17"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 96838992,
+      "liabilities_inr": 82442418,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=17"
+    }
+  },
+  {
+    "slug": "palla-rajeshwar-reddy",
+    "name": "Palla Rajeshwar Reddy",
+    "party": "BRS",
+    "constituency": "JANGAON",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Jangaon",
+    "age": 60,
+    "education": null,
+    "profession": "Academician & Member of Legislative Counil",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/0c15ff58ad8c38a9cc44b892f7704da30d515e62.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=106",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 116381916,
+      "liabilities_inr": 50068732,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=106"
+    }
+  },
+  {
+    "slug": "patlolla-sabitha-indra-reddy",
+    "name": "Patlolla Sabitha Indra Reddy",
+    "party": "BRS",
+    "constituency": "MAHESWARAM",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 60,
+    "education": null,
+    "profession": "Politician & Farming",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/4155a76473cb15f65dd5b77b892c69d883093741.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=173",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "13"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 RC 19(A)/2011-CBI/HYD, CBI, ACB, Hyderabad, Kendriya Sadan, Koti, Hyderabad CC No. 26 of 2013 Principal Judge for CBI Cases, Hyderabad120B, 420 Section 13(2) r/w 13(1)(d) of P.C. Act 1988 No No 2 ECIR No. 09/HZO/2011 S.C. No. 02 of 2018 Principal Special Judge for TRAIL of CBI Cases-Cum-Special Cou",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=173"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 12940194,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=173"
+    }
+  },
+  {
+    "slug": "patlolla-sanjeeva-reddy",
+    "name": "Patlolla Sanjeeva Reddy",
+    "party": "INC",
+    "constituency": "NARAYANKHED",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 61,
+    "education": null,
+    "profession": "Doctor",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/8346c84afc78a34a6ba42dc9bda417fcfbe168a7.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=569",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "127",
+          "23"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 26/2016, PS Narayankhed CC 188/2018 Judicial Frist Class Magistrate, Narayankhed Section 127(A) & 77(1) of R.P. ACt. No No 2 113/2022, PS Narayankhed CC 467/2022 Judicial Frist Class Magistrate, Narayankhed 353, 504, 506, 34 No No 3 63/2023, PS Narayankhed District Court, Sangareddy228A, 505C(i)(b)",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=569"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 5902763,
+      "liabilities_inr": 17540347,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=569"
+    }
+  },
+  {
+    "slug": "payal-shanker",
+    "name": "Payal Shanker",
+    "party": "BJP",
+    "constituency": "ADILABAD",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Adilabad",
+    "age": 52,
+    "education": null,
+    "profession": "Agriculture, Salary and Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/8bab62f6cf58fcc911c123c03ff4c0494c218a4a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=5",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 37557453,
+      "liabilities_inr": 26174610,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=5"
+    }
+  },
+  {
+    "slug": "payam-venkateswarlu",
+    "name": "Payam Venkateswarlu",
+    "party": "INC",
+    "constituency": "PINAPAKA (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 49,
+    "education": null,
+    "profession": "Social Worker & Agriculture, Pensioner",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/7dc7b336c158f8928e32db72b3e77a50d35048ba.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=272",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "34"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 237/2023, PS Manuguru CC- 0000406/2023 Judicial Magistrate of First Class, Manuguru143, 186, 341, 149 No No 2 65/2018, PS Allapalli CC- 0000279/2019 Judicial Frist Class Magistrate, Yellandu188, 171(e) Section 34(a) of TS Excise Act No No",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=272"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 7610716,
+      "liabilities_inr": 801600,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=272"
+    }
+  },
+  {
+    "slug": "ponnam-prabhakar",
+    "name": "Ponnam Prabhakar",
+    "party": "INC",
+    "constituency": "HUSNABAD",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Siddipet",
+    "age": 56,
+    "education": null,
+    "profession": "Public Service & Advocate",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/2639ef93bbb08ea765b3bbf56fd0a7491b72eb4a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=89",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "51"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Private Complaint CC No. 152/2015 Addl JFCM, Suryapet 499, 500 No No 2 Private Complaint CC No. 769/2015 IV ACMM, Nampally 499, 500 No No 3 141/2019, Police Station LMD Colony Karimnagar CC No. 994/2019 JMC PCR, Karimnagar177H, 188 No No 4 352/2020, Police Station I Town karimnagar CC No. 64/2021 I",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=89"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 13639096,
+      "liabilities_inr": 7500000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=89"
+    }
+  },
+  {
+    "slug": "prashanth-reddy-vemula",
+    "name": "Prashanth Reddy Vemula",
+    "party": "BRS",
+    "constituency": "BALKONDA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nizamabad",
+    "age": 57,
+    "education": null,
+    "profession": "Business & Profession",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/78eca193665e8761bc6bc60191ef175b62a2761c.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=26",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 117676992,
+      "liabilities_inr": 34393873,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=26"
+    }
+  },
+  {
+    "slug": "ram-rao-pawar",
+    "name": "Ram Rao Pawar",
+    "party": "BJP",
+    "constituency": "MUDHOLE",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Nirmal",
+    "age": 69,
+    "education": null,
+    "profession": "Business Man- (1) Partner in M/S Krushi Cotton Industries, Bhainsa (2) Partner in M/S Bhainsa Ginning and Pressing Factory, Bhainsa (3) Partner in M/S Patil Plaza Lodging, Boarding & Restaurant, Nanded MH (4) Share Holder in M/S S S Cotton Industries Pvt",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/01ca62e97e8371ea08652044f8258251af9b744e.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=206",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "130"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 120/2018, PS Tanoor CC No. 270/2019 JFCM Bhainsa188 Yes 09 Oct 2019No 2 258/2018, PS Bhainsa Town CC No. 49/2019 JFCM Bhainsa171B, 171E, 186, 188 Section 130 of Peoples Representative Act 1951 Yes 01 Mar 2019No",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=206"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 87901182,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=206"
+    }
+  },
+  {
+    "slug": "ramdas-maloth",
+    "name": "Ramdas Maloth",
+    "party": "INC",
+    "constituency": "WYRA (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 59,
+    "education": null,
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/4e0d46a75ad6444a9c34944b6a7a6d536cbc080d.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=343",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 3757323,
+      "liabilities_inr": 1520609,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=343"
+    }
+  },
+  {
+    "slug": "revuri-prakash-reddy",
+    "name": "Revuri Prakash Reddy",
+    "party": "INC",
+    "constituency": "PARKAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hanumakonda",
+    "age": 71,
+    "education": null,
+    "profession": "Business and  Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/6cf0782e063ad083cbe47fed08a2dd2f4ecca69d.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=263",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 29722930,
+      "liabilities_inr": 2853612,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=263"
+    }
+  },
+  {
+    "slug": "srinivas-reddy-parige-pocharam",
+    "name": "Srinivas Reddy Parige (Pocharam)",
+    "party": "BRS",
+    "constituency": "BANSWADA",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Kamareddy",
+    "age": 74,
+    "education": null,
+    "profession": "Agriculture and Public Service",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/da90d3cd30f6c5a8476c772f72b4e53de9e279dd.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=29",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": null,
+      "liabilities_inr": null,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=29"
+    }
+  },
+  {
+    "slug": "t-prakash-goud",
+    "name": "T. Prakash Goud",
+    "party": "BRS",
+    "constituency": "RAJENDRANAGAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Ranga Reddy",
+    "age": 64,
+    "education": "self",
+    "profession": "Politician & Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/bf9bd2614094f3a2f1e44aba41d9e1b56f5ec79d.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=277",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 3477063717,
+      "liabilities_inr": 584000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=277"
+    }
+  },
+  {
+    "slug": "t-raja-singh",
+    "name": "T. Raja Singh",
+    "party": "BJP",
+    "constituency": "GOSHAMAHAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Hyderabad",
+    "age": 46,
+    "education": null,
+    "profession": "Ex MLA",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/8b905dc776d36b74f1abb2f7a2d8be2841334400.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=87",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "21",
+          "123",
+          "137",
+          "51",
+          "66",
+          "25",
+          "126",
+          "66A"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 321/2023, Police Station Mangalhat Hyderabad 153A, 295A, 504 No No 2 0492/2023, Police Station Aazad Chowk Maidan Bhilwara 153A, 295A, 120B, 188 No No 3 CC No. 8711/2023, PS Saifabad 153A, 295A, 120B, 188 No No 4 0258/2023, CC No. 260/2023, Police Station Sri Rampur City Shiridi Judicial Magistrate",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=87"
+      },
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "76"
+        ],
+        "status": "convicted",
+        "summary": "Serial No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Punishment ImposedDate on which convictedAppeal FiledDetails and present status of appeal 1 CC No. 2/2019, FIR No. 105/2015, Bollaram Police Station Spl MP/MLA Court 353, 506 1 Year Conviction29 Dec 2021Yes CRLA 54/2021, Pending at High Court Telangana 2 CC No. 7/2018, FIR No. 96/2015, Mangalhat Police Station Spl MP/MLA Court 353, 323, 506, 34, 188 Section 76 CP Act Fine of Rs. 6500/- Imposed 31 Dec 2",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=87"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 25062948,
+      "liabilities_inr": 1360455,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=87"
+    }
+  },
+  {
+    "slug": "tammannagari-ram-mohan-reddy",
+    "name": "Tammannagari Ram Mohan Reddy",
+    "party": "INC",
+    "constituency": "PARGI",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Vikarabad",
+    "age": 58,
+    "education": null,
+    "profession": "Business and Educationist",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/32338468a0ac108d8ace9f17bb4494d2a2d248f9.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=260",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 42816031,
+      "liabilities_inr": 45492863,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=260"
+    }
+  },
+  {
+    "slug": "thanneeru-harish-rao",
+    "name": "Thanneeru Harish Rao",
+    "party": "BRS",
+    "constituency": "SIDDIPET",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Siddipet",
+    "age": 52,
+    "education": null,
+    "profession": "Agriculturalist",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/2b95828a3192c81f1981253c5528037329a6ed42.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=304",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "147"
+        ],
+        "status": "convicted",
+        "summary": "Serial No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Punishment ImposedDate on which convictedAppeal FiledDetails and present status of appeal 1 C.C. No. 682/2012 IInd Metropolitan Magistrate for Railways at Secunderabad Section 147 of Railways Act Honorable Court imposed fine of Rs. 500/- paid the same01 Jul 2013No 2 C.C. No. 684/2012 IInd Metropolitan Magistrate for Railways at Secunderabad Section 147 of Railways Act Honorable Court imposed fine of Rs",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=304"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 140905196,
+      "liabilities_inr": 115001122,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=304"
+    }
+  },
+  {
+    "slug": "tummala-nageswara-rao",
+    "name": "Tummala Nageswara Rao",
+    "party": "INC",
+    "constituency": "KHAMMAM",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Khammam",
+    "age": 71,
+    "education": null,
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/9591a286300d56484f6f0cdfd5204f88b03d315d.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=131",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 39772567,
+      "liabilities_inr": 8156736,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=131"
+    }
+  },
+  {
+    "slug": "uttam-kumar-reddy-nalamada",
+    "name": "Uttam Kumar Reddy Nalamada",
+    "party": "INC",
+    "constituency": "HUZURNAGAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Suryapet",
+    "age": 59,
+    "education": null,
+    "profession": "Politician - Member of Parliament",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/8affd3c15179952f38acf9cdbfa961c0e361b957.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=96",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "126",
+          "30"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 38/2021, SHO, Saifabad P.S. CC.No.8710/2023 143, 147, 341, 290, 149 No No 2 288/2019, SHO Huzurnagar P.S. CC.No.647/2022 341, 188, 34 No No 3 292/2019, SHO Huzurnagar P.S CC.No.648/2022 188 Section-126 RP Act No No 4 184/2019, SHO, Palakeedu P.S. CC.No.659/2022 188, 341, 149 No No 5 255/2019, SHO, ",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=96"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 13251843,
+      "liabilities_inr": 8568468,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=96"
+    }
+  },
+  {
+    "slug": "vakiti-srihari",
+    "name": "Vakiti Srihari",
+    "party": "INC",
+    "constituency": "MAKTHAL",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Narayanpet",
+    "age": 51,
+    "education": "self",
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/09eda67e35f8c5bb8b70a65e6f33eef28649d29a.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=177",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 5190543,
+      "liabilities_inr": 4180000,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=177"
+    }
+  },
+  {
+    "slug": "vakiti-sunitha",
+    "name": "Vakiti Sunitha",
+    "party": "BRS",
+    "constituency": "NARSAPUR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Medak",
+    "age": 55,
+    "education": null,
+    "profession": "Agriculture and Public Service",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/bd39bfca3a519f07c2aa29ab9398c9bc33e08cd8.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=243",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "123"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 92/2018, P.S. Kowdipally, Medak Dist. STC.No.82/2021 JFCM Court, Narsapur171E Section-123(i) RP Act No No 2 115/2018, P.S. Kowdipally, Medak Dist. CC.No.25/2023 Spl. JFCM for Excise Magistrate, Hyderabad341, 188, 504, 506 No No 3 141/2018, P.S. Narsapur, Medak Dist. CC.No.270/2020 JFCM Court, Narsa",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=243"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 18779802,
+      "liabilities_inr": 4369902,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=243"
+    }
+  },
+  {
+    "slug": "vedma-bhojju",
+    "name": "Vedma Bhojju",
+    "party": "INC",
+    "constituency": "KHANAPUR (ST)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 37,
+    "education": null,
+    "profession": "Agriculture",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/ba3725c73009f5ff55f4ce3535990e3fd5a3eae0.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=135",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 2430000,
+      "liabilities_inr": 2190386,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=135"
+    }
+  },
+  {
+    "slug": "vemula-veeresham",
+    "name": "Vemula Veeresham",
+    "party": "INC",
+    "constituency": "NAKREKAL (SC)",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 46,
+    "education": null,
+    "profession": "Agriculture & Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/1c8a74e95fafd68d321e83df3df07a15f66b764c.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=223",
+    "criminal_cases": [
+      {
+        "case_type": "criminal",
+        "ipc_sections": [
+          "25"
+        ],
+        "status": "charges framed",
+        "summary": "Serial No.FIR No.Case No.CourtIPC Sections ApplicableOther Details / Other Acts / Sections Applicable Charges Framed Date on which charges were framedAppeal FiledDetails and present status of appeal 1 Cr.No 194/2023 P.S Chiytala, Nalgonda Dist. Cr.No 194/2023 P.S Chiytala, Nalgonda Dist.188, 341, 290, 34 No No 2 Cr.No 63/2023, P.S. Nakrekal,Nalgonda Dist Cr.No 63/2023 JFCM Court Nakrekal143, 153, 504, 506, 34 No No 3 Cr.No 128/2023 P.S. Nakrekal,Nalgonda Dist Cr.No 128/2023 JFCM Court Nakrekal29",
+        "is_serious": false,
+        "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=223"
+      }
+    ],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 10618359,
+      "liabilities_inr": 3244568,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=223"
+    }
+  },
+  {
+    "slug": "yashaswini-mamidala",
+    "name": "Yashaswini Mamidala",
+    "party": "INC",
+    "constituency": "PALAKURTHI",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": "Jangaon",
+    "age": 26,
+    "education": null,
+    "profession": "Office Manager, Raj Properties and Group, California, USA",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/9cac05ffe9c0145316df7495049a962327da6d8f.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=258",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 560600073,
+      "liabilities_inr": 128931,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=258"
+    }
+  },
+  {
+    "slug": "yennam-srinivas-reddy",
+    "name": "Yennam Srinivas Reddy",
+    "party": "INC",
+    "constituency": "MAHBUBNAGAR",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 53,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/c5a12448b55b741e08cadbb2b61314b52074720e.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=171",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 23422593,
+      "liabilities_inr": 3117183,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=171"
+    }
+  },
+  {
+    "slug": "sriganesh",
+    "name": "Sriganesh",
+    "party": "INC",
+    "constituency": "SECUNDERABAD CANTT. (SC) : BYE ELECTION ON 13-05-2024",
+    "position": "MLA",
+    "election_cycle": "2023-Congress",
+    "district": null,
+    "age": 45,
+    "education": null,
+    "profession": "Business",
+    "photo_url": "https://myneta.info/images_candidate/Telangana2023/f978cd00d05ec2b8982b2fe43f29026cb032d8a5.jpg",
+    "myneta_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=2297",
+    "criminal_cases": [],
+    "asset_declaration": {
+      "year": "2023",
+      "total_assets_inr": 110685782,
+      "liabilities_inr": 52273114,
+      "source_url": "https://myneta.info/Telangana2023/candidate.php?candidate_id=2297"
+    }
+  }
+]

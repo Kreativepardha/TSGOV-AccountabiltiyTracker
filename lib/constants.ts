@@ -97,6 +97,19 @@ export const PARTY_COLORS: Record<string, string> = {
   "Independent":  "bg-gray-100 text-gray-700 border-gray-200",
 }
 
+// Normalize myneta-style full party names to canonical short codes for color lookup.
+export function normalizeParty(party: string): string {
+  const p = party.toLowerCase().trim()
+  if (/indian national congress|congress|\binc\b/.test(p)) return "INC"
+  if (/bharat rashtra samithi|telangana rashtra samithi|\bbrs\b|\btrs\b/.test(p)) return "BRS"
+  if (/bharatiya janata party|\bbjp\b/.test(p)) return "BJP"
+  if (/majlis|aimim|mim/.test(p)) return "AIMIM"
+  if (/communist.*marxist|cpi.?\(?m\)?|cpi-m/.test(p)) return "CPI-M"
+  if (/communist|\bcpi\b/.test(p)) return "CPI"
+  if (/independent/.test(p)) return "Independent"
+  return party
+}
+
 export const POSITIONS = [
   "MLA",
   "MP",

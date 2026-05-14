@@ -1,0 +1,32 @@
+# TSGOV CODEOWNERS — auto-assigned reviewers for paths below.
+# Format: <pattern> <owner1> <owner2> ...
+# Owners must have explicit write access to the repo.
+
+# Default — all changes
+*                                       @Kreativepardha
+
+# Content — promises and incidents (any maintainer can review)
+/content/                               @Kreativepardha
+
+# Politician data — extra scrutiny (defamation risk)
+/scripts/seed-politicians.ts            @Kreativepardha
+/scripts/scrape-myneta.ts               @Kreativepardha
+/scripts/import-myneta.ts               @Kreativepardha
+
+# Crime statistics — needs source verification
+/scripts/seed-ncrb.ts                   @Kreativepardha
+
+# Database schema — breaking changes affect everything
+/prisma/schema.prisma                   @Kreativepardha
+/lib/db.ts                              @Kreativepardha
+/lib/schemas.ts                         @Kreativepardha
+
+# Admin / auth — security-critical
+/lib/auth.ts                            @Kreativepardha
+/app/api/admin/                         @Kreativepardha
+/app/admin/                             @Kreativepardha
+
+# CI / deployment
+/.github/workflows/                     @Kreativepardha
+/next.config.mjs                        @Kreativepardha
+/vercel.json                            @Kreativepardha

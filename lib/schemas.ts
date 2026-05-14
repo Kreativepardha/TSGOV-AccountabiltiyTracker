@@ -133,7 +133,10 @@ export const IncidentFrontmatterSchema = z.object({
 
 // ─── Politician / crime tracking ────────────────────────────────────────────
 
-export const PartySchema = z.enum([
+// Party names — scrapers return full official names (e.g. myneta returns
+// "All India Majlis-E-Ittehadul Muslimeen"). We accept any string in DB
+// and use normalizeParty() for badge color lookup.
+export const PARTY_CANONICAL = [
   "INC",
   "BRS",
   "BJP",
@@ -141,32 +144,41 @@ export const PartySchema = z.enum([
   "CPI",
   "CPI-M",
   "Independent",
-])
+] as const
+export const PartySchema = z.string()
 
-export const PositionSchema = z.enum([
+export const POSITION_CANONICAL = [
   "MLA",
   "MP",
   "Minister",
   "CM",
   "Deputy CM",
-])
+] as const
+export const PositionSchema = z.string()
 
-export const CaseTypeSchema = z.enum([
+// Canonical case types for UI; importers may set freer values (myneta uses
+// "criminal" as a generic label). Filter UI uses CASE_TYPE_CANONICAL.
+export const CASE_TYPE_CANONICAL = [
   "IPC",
   "POCSO",
   "Corruption",
   "Defamation",
   "Communal",
   "Economic Offence",
-])
+] as const
+export const CaseTypeSchema = z.string()
 
-export const CaseStatusSchema = z.enum([
+// Canonical statuses for UI badges; importers may set freer text (e.g. myneta
+// returns "charges framed", "fir filed", "chargesheet filed"). We accept any
+// string in DB but normalize for badge color lookup at render time.
+export const CASE_STATUS_CANONICAL = [
   "pending",
   "convicted",
   "acquitted",
   "withdrawn",
   "stayed",
-])
+] as const
+export const CaseStatusSchema = z.string()
 
 export const CrimeCategorySchema = z.enum([
   "rape",

@@ -170,6 +170,8 @@ model AssetDeclaration {
   immovable_inr    Float?
   source_url       String?
   politician       Politician @relation(fields: [politician_id], references: [id], onDelete: Cascade)
+
+  @@unique([politician_id, year])
 }
 
 model CrimeStatistic {

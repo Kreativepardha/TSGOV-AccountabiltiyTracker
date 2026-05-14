@@ -1,0 +1,54 @@
+name: Correction / Error Report
+description: Report an inaccuracy in an existing promise, incident, or politician entry
+title: "[CORRECTION] "
+labels: ["correction", "needs-review"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Content type
+      options:
+        - Promise
+        - Incident
+        - Politician
+        - Crime statistic
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: slug
+    attributes:
+      label: Slug or URL
+      placeholder: "/promises/mahalakshmi-bus-pass OR full URL"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: What is wrong?
+      description: Quote the specific incorrect text or claim.
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correct information
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources for correction
+      description: "Format: `Outlet — Label — URL — YYYY-MM-DD`"
+    validations:
+      required: true
+
+  - type: input
+    id: relation
+    attributes:
+      label: Your relation to the content (optional)
+      placeholder: "Journalist who covered this / official spokesperson / affected citizen / researcher"

@@ -9,7 +9,7 @@ import {
 } from "@/lib/content"
 import { Badge } from "@/components/ui/badge"
 import { PoliticianProfileTabs } from "@/components/PoliticianProfileTabs"
-import { PARTY_COLORS } from "@/lib/constants"
+import { PARTY_COLORS, normalizeParty } from "@/lib/constants"
 
 export async function generateStaticParams() {
   const politicians = await loadPoliticians()
@@ -111,9 +111,10 @@ export default async function PoliticianDetailPage({
           <div className="flex flex-wrap items-center gap-2">
             <Badge
               variant="outline"
-              className={`text-xs ${PARTY_COLORS[politician.party] ?? ""}`}
+              className={`text-xs ${PARTY_COLORS[normalizeParty(politician.party)] ?? ""}`}
+              title={politician.party}
             >
-              {politician.party}
+              {normalizeParty(politician.party)}
             </Badge>
             <Badge variant="outline" className="text-xs">
               {politician.position}

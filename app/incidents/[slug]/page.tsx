@@ -111,7 +111,7 @@ export default async function IncidentDetailPage({
         </section>
       )}
 
-      {/* Share */}
+      {/* Share + Suggest edit */}
       <div className="border-t pt-4 flex flex-wrap gap-3 text-xs text-muted-foreground">
         <span>Share:</span>
         <a
@@ -128,6 +128,15 @@ export default async function IncidentDetailPage({
         >
           WhatsApp
         </a>
+        <span className="ml-auto">
+          <a
+            href={`https://github.com/Kreativepardha/TSGOV-AccountabiltiyTracker/issues/new?template=correction.yml&title=${encodeURIComponent(`[CORRECTION] /incidents/${incident.slug}`)}`}
+            target="_blank" rel="noopener noreferrer"
+            className="text-amber-700 hover:underline"
+          >
+            Suggest edit / report error →
+          </a>
+        </span>
       </div>
     </main>
   )
